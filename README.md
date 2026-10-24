@@ -16,6 +16,14 @@
 
 演示动图：[`demos/`](demos)
 
+## 脏表格一键清洗工具 v1.0（自助版，MIT）
+
+一条命令把乱表洗成干净表 + 复核表 + 报告。纯标准库，内置 16 项自检。
+
+- 落地页：<https://pp-prog.github.io/data-cleanup-services/toolkit.html>
+- 下载：<https://github.com/pp-prog/data-cleanup-services/releases/download/v1.0.0-toolkit/table-cleaner-toolkit-v1.0.0.zip>
+- 自检：`python clean_my_table.py --self-test`
+
 ## 两条规矩
 
 1. **不编造数据** —— 无法核实的行不填值，落到 review 表让你看见。
