@@ -1,0 +1,8 @@
+supplier,full_name,phone_no,email_address,date,total,ccy
+  Orion Parts GmbH ,Klaus Weber,+49 30 5550 0111,klaus.weber@orionparts.example,2024-10-03,"€1.890,20",eur
+Orion Parts GmbH,Klaus Weber,+49 30 5550 0111,klaus.weber@orionparts.example,2024-10-05,430,euro
+Pinewood Retail Ltd,Emma Clark,+1 (503) 555-0177,emma.clark@pinewoodretail.example,"Oct 7, 2024","620.00",USD
+Pinewood Retail Ltd,Emma Clark,+1 (503) 555-0177,emma.clark@pinewoodretail.example,2024-10-09,180.00,USD
+Pinewood Retail Ltd,Emma Clark,+1 (503) 555-0177,emma.clark@pinewoodretail.example,2024-10-11,140.75,USD
+Rivet & Co,Liam Murphy,,liam@rivetco.example,2024-10-10,95.50,GBP
+Rivet & Co,Liam Murphy,,liam@rivetco.example,2024-10-12,95.50,GBP

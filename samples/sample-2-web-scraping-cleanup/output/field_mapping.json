@@ -1,0 +1,29 @@
+{
+  "raw_label_to_column": {
+    "title": "product_name",
+    "price": "price",
+    "was_price": "list_price",
+    "currency": "currency",
+    "sku": "sku",
+    "availability": "availability",
+    "category": "category",
+    "rating": "rating",
+    "reviews": "review_count"
+  },
+  "availability_normalisation": {
+    "in stock": "in_stock",
+    "instock": "in_stock",
+    "available": "in_stock",
+    "out of stock": "out_of_stock",
+    "outofstock": "out_of_stock",
+    "pre-order": "preorder",
+    "preorder": "preorder",
+    "backorder": "backorder"
+  },
+  "price_rule": "strip currency symbols and thousands separators -> 2dp decimal",
+  "dedupe_key": "sku (fallback: lowercased product name)",
+  "source_pages": [
+    "page1_office_supplies.html",
+    "page2_listing_api.json"
+  ]
+}

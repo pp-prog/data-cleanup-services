@@ -1,0 +1,8 @@
+company_name,contact,phone,email,order_date,amount,currency
+Acme Industrial Ltd.,John  Smith,+1 (415) 555-0123,john.smith@acme-industrial.example,2024-10-01,"1,234.50",USD
+ACME INDUSTRIAL LTD,John Smith,4155550123,JOHN.SMITH@acme-industrial.example,"Oct 2, 2024","$1,180.00",usd
+  Acme  Industrial   Ltd,John Smith,,john.smith@acme-industrial.example,2024-10-03,1204.5,$
+Blue Harbor Logistics,Devi Anand,91-98765-43210,devi@blueharbor.example,2024/10/05,"€4.310,75",EUR
+Blue Harbor Logistics,,91-98765-43210,devi@blueharbor.example,2024-10-06,1250,euro
+Cedar Grove Foods,Jane Doe,+1 212-555-0188,jane@cedargrove.example,05.10.2024,780.25,USD
+Cedar Grove Foods,Jane Doe,+1 212-555-0188,jane@cedargrove.example,2024-10-07,,USD

@@ -1,0 +1,14 @@
+run_at_utc,2026-10-23T01:49:29Z
+source_files,4
+rows_in,26
+unique_vendors_out,10
+rows_merged_away,16
+elapsed_seconds,0.160
+
+issue,count
+amount_missing,1
+amount_normalised,18
+company_normalised,2
+date_format_normalised,9
+phone_missing,4
+phone_normalised,21

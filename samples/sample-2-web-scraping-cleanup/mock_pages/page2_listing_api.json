@@ -1,0 +1,57 @@
+{
+  "_comment": "Mock snapshot of a public listing that exposes its data as JSON (fictional data).",
+  "source": "demomart.example/api/v2/listings?page=2",
+  "items": [
+    {
+      "name": "Desk Organiser Tray",
+      "sale_price": "$12.40",
+      "was_price": "$15.00",
+      "currency_code": "USD",
+      "identifier": "dm-2001",
+      "stock_status": "In Stock",
+      "category_name": "Office Supplies",
+      "stars": 4.3,
+      "review_count": 19
+    },
+    {
+      "name": "Highlighters (Pack of 6)",
+      "sale_price": "$4.25",
+      "currency_code": "USD",
+      "identifier": "dm-2002",
+      "stock_status": "Out of stock",
+      "category_name": "Office Supplies",
+      "stars": 4.0,
+      "review_count": 6
+    },
+    {
+      "name": "Notice Board 90x60",
+      "sale_price": "€22.00",
+      "currency_code": "EUR",
+      "identifier": "dm-2003",
+      "stock_status": "In Stock",
+      "category_name": "Office Supplies",
+      "stars": 4.6,
+      "review_count": 31
+    },
+    {
+      "name": "Desk Organiser Tray",
+      "sale_price": "$12.40",
+      "currency_code": "USD",
+      "identifier": "dm-2001",
+      "stock_status": "In Stock",
+      "category_name": "Office Supplies",
+      "stars": 4.3,
+      "review_count": 19
+    },
+    {
+      "name": "Monitor Stand Riser",
+      "sale_price": "£27.90",
+      "currency_code": "GBP",
+      "identifier": "dm-2004",
+      "stock_status": "Pre-order",
+      "category_name": "Office Supplies",
+      "stars": 3.8,
+      "review_count": 4
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>表格清洗 · 数据抓取 · 文档抽取 — 可交付样品与服务</title>
+<meta name="description" content="四套可运行的真实样品：多表合并清洗、网页抓取去重、文档抽取工作流、历史表格修复。附输入输出与自检结果。">
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#252a34;--fg:#e6e8ee;--dim:#9aa3b2;--acc:#4ade80;--acc2:#60a5fa;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:56px 0 28px;border-bottom:1px solid var(--line)}
+  h1{font-size:30px;margin:0 0 10px}
+  .sub{color:var(--dim);max-width:720px}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--dim);margin:0 6px 6px 0}
+  h2{font-size:21px;margin:44px 0 6px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:17px}
+  .price{color:var(--acc);font-weight:700;margin:8px 0}
+  .card ul{padding-left:18px;margin:8px 0;color:var(--dim);font-size:14px}
+  .card a{color:var(--acc2);text-decoration:none;font-size:14px}
+  .card a:hover{text-decoration:underline}
+  img.demo{width:100%;border-radius:8px;border:1px solid var(--line);margin-top:12px;background:#000}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}
+  th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left}
+  th{color:var(--dim);font-weight:600}
+  .cta{background:linear-gradient(90deg,#132a1c,#12202f);border:1px solid var(--line);border-radius:12px;padding:22px;margin:40px 0}
+  .cta h2{margin-top:0}
+  .qr{width:150px;height:150px;border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:12px;text-align:center;margin:10px 0}
+  code{background:#11141a;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:13px}
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--dim);font-size:13px;margin-top:30px}
+  .en{color:var(--dim);font-size:14px;border-left:2px solid var(--line);padding-left:12px;margin:10px 0}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>表格清洗 · 数据抓取 · 文档抽取</h1>
+  <div class="sub">四套<strong>可运行、可自检、带输入输出</strong>的样品工程。先看我做过的样本，再谈你的文件。</div>
+  <div style="margin-top:14px">
+    <span class="pill">Excel / CSV 清洗</span><span class="pill">网页抓取 + 去重</span><span class="pill">文档抽取 → JSON</span><span class="pill">历史表格修复</span><span class="pill">人民币 / 美元结算</span>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<h2>四套样品（每套都含源码 + 输入 + 输出 + 自检）</h2>
+<div class="grid">
+
+  <div class="card">
+    <h3>① 多供应商表格合并与清洗</h3>
+    <div class="price">¥39 起 / $15 起</div>
+    <ul>
+      <li>4 家供应商 4 种表头 / 4 种日期格式 / 4 种币种写法</li>
+      <li>输出：一份干净主表 + 一份运行摘要</li>
+      <li>脚本自带校验，坏行进 review 不被静默丢弃</li>
+    </ul>
+    <img class="demo" src="demos/demo-1-python-automation.gif" alt="多表合并清洗演示">
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-1-python-automation">查看源码与输出 →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>② 网页抓取 + 结构化清洗</h3>
+    <div class="price">¥59 起 / $25 起</div>
+    <ul>
+      <li>解析页面 → 按 SKU 去重 → 规范化字段 → 字段映射表</li>
+      <li>可直接喂给表格，而不是给你一堆原始 HTML</li>
+      <li>离线 mock 模式，任何机器都能复现</li>
+    </ul>
+    <img class="demo" src="demos/demo-2-web-scraping-cleanup.gif" alt="抓取清洗演示">
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-2-web-scraping-cleanup">查看源码与输出 →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>③ 文档信息抽取工作流（LLM + 校验）</h3>
+    <div class="price">¥49 起 / $20 起</div>
+    <ul>
+      <li>批量文档 → 抽取 → 结构化 JSON → 自动生成报告</li>
+      <li>无 API Key 时自动降级为 MOCK 模式，不编数据</li>
+      <li>密钥只从环境变量读取，不写进代码</li>
+    </ul>
+    <img class="demo" src="demos/demo-3-ai-agent-api-workflow.gif" alt="抽取工作流演示">
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-3-ai-agent-api-workflow">查看源码与输出 →</a></p>
+  </div>
+
+  <div class="card">
+    <h3>④ 复杂历史表格修复（多表头 / 多格式 / 异常复核）</h3>
+    <div class="price">¥99 起 / $30 起</div>
+    <ul>
+      <li>48 个月度表、6 种表头、6 种日期写法、手写合计行</li>
+      <li>结果：<strong>833 条清洗完成，571 条标记复核</strong></li>
+      <li>脚本 17 项断言自检（价格 = 晚数 × 40、日期先后、汇总对账）</li>
+    </ul>
+    <img class="demo" src="demos/demo-4-hotel-booking-cleanup.gif" alt="历史表格修复演示">
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-4-hotel-booking-cleanup">查看源码与输出 →</a></p>
+  </div>
+
+</div>
+
+<h2>我的两条规矩</h2>
+<div class="card">
+  <ul>
+    <li><strong>不编造数据。</strong>无法核实的行不填值，落到 review 表里让你看见。</li>
+    <li><strong>不静默丢行。</strong>修不好的行不会悄悄消失，会给你一份可核对的清单。</li>
+    <li><strong>交付源码，不交付黑盒。</strong>每个脚本带注释、说明和运行方式。</li>
+    <li><strong>先看我的样例，再谈你的文件。</strong>上面四套都是真跑出来的，不是 PPT。</li>
+  </ul>
+</div>
+
+<h2>服务与价格</h2>
+<table>
+  <tr><th>服务</th><th>交付</th><th>周期</th><th>价格</th></tr>
+  <tr><td>表格清洗 / 多表合并</td><td>干净主表 + 运行摘要 + review 清单</td><td>24–48 小时</td><td>¥39 起 / $15 起</td></tr>
+  <tr><td>网页抓取 + 结构化</td><td>规范化 CSV + 字段映射 + 可重跑脚本</td><td>2–3 天</td><td>¥59 起 / $25 起</td></tr>
+  <tr><td>文档抽取 → 结构化数据</td><td>JSON + 报告 + 校验脚本</td><td>2–3 天</td><td>¥49 起 / $20 起</td></tr>
+  <tr><td>历史表格修复（多表头/异常）</td><td>清洗表 + 复核表 + 17 项自检</td><td>2–4 天</td><td>¥99 起 / $30 起</td></tr>
+</table>
+
+<div class="cta">
+  <h2>联系我</h2>
+  <p>把需求（或一份脱敏的样本文件）发我，我先回你一版可行性判断和准确报价，再决定要不要开工。</p>
+  <div class="qr">收款码<br>&lt;&lt;RECEIPT_QR&gt;&gt;</div>
+  <p class="en">Send me the requirement (or a redacted sample file). I reply with a feasibility note and an exact quote first. Payment: WeChat / Alipay (CNY) or Upwork / PayPal (USD).</p>
+</div>
+
+<footer>
+  样品工程开源： <a style="color:#60a5fa" href="https://github.com/pp-prog/data-cleanup-services">github.com/pp-prog/data-cleanup-services</a><br>
+  内容均为真实运行结果；客户数据与身份信息一律不出现。
+</footer>
+
+</div>
+</body>
+</html>

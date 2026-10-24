@@ -1,0 +1,93 @@
+{
+  "generated_by": "ai-workflow-demo (sample project)",
+  "mode": "mock",
+  "model": "mock-fixtures",
+  "note": "Sample output generated from fictional demo data. No client data involved.",
+  "records": [
+    {
+      "id": "REC-001",
+      "subject": "A4 copy paper - quarterly price request",
+      "fields": {
+        "company": "Northwind Office Supply",
+        "contact_name": "Marta Kowalski",
+        "email": "m.kowalski@northwind-office.example",
+        "country": "United States",
+        "product_interest": "A4 copy paper, 500 sheets per box",
+        "quantity": 400,
+        "target_price": 6.2,
+        "urgency": "high",
+        "summary": "Northwind wants a quarterly price for A4 copy paper, 400 boxes."
+      },
+      "warnings": [],
+      "raw_model_output": "{\"company\": \"Northwind Office Supply\", \"contact_name\": \"Marta Kowalski\", \"email\": \"m.kowalski@northwind-office.example\", \"country\": \"United States\", \"product_interest\": \"A4 copy paper, 500 sheets per box\", \"quantity\": 400, \"target_price\": \"6.20\", \"urgency\": \"high\", \"summary\": \"Northwind wants a quarterly price for A4 copy paper, 400 boxes.\"}"
+    },
+    {
+      "id": "REC-002",
+      "subject": "Heavy duty stapler 65mm - 120 units",
+      "fields": {
+        "company": "Blue Harbor Logistics",
+        "contact_name": "Devi Anand",
+        "email": "devi@blueharbor.example",
+        "country": "India",
+        "product_interest": "Heavy duty stapler, 65mm",
+        "quantity": 120,
+        "target_price": 22.0,
+        "urgency": "medium",
+        "summary": "Blue Harbor is comparing stapler suppliers for 120 units."
+      },
+      "warnings": [],
+      "raw_model_output": "{\"company\": \"Blue Harbor Logistics\", \"contact_name\": \"Devi Anand\", \"email\": \"devi@blueharbor.example\", \"country\": \"India\", \"product_interest\": \"Heavy duty stapler, 65mm\", \"quantity\": 120, \"target_price\": \"22.00\", \"urgency\": \"medium\", \"summary\": \"Blue Harbor is comparing stapler suppliers for 120 units.\"}"
+    },
+    {
+      "id": "REC-003",
+      "subject": "Ergonomic mouse - catalogue request",
+      "fields": {
+        "company": "Kestrel Media",
+        "contact_name": "Sam O'Brien",
+        "email": "sam@kestrelmedia.example",
+        "country": "United Kingdom",
+        "product_interest": "Ergonomic mouse",
+        "quantity": 60,
+        "target_price": null,
+        "urgency": "low",
+        "summary": "Kestrel Media asked for a catalogue and a price list for 60 mice."
+      },
+      "warnings": [],
+      "raw_model_output": "{\"company\": \"Kestrel Media\", \"contact_name\": \"Sam O'Brien\", \"email\": \"sam@kestrelmedia.example\", \"country\": \"United Kingdom\", \"product_interest\": \"Ergonomic mouse\", \"quantity\": 60, \"target_price\": null, \"urgency\": \"low\", \"summary\": \"Kestrel Media asked for a catalogue and a price list for 60 mice.\"}"
+    },
+    {
+      "id": "REC-004",
+      "subject": "LED desk lamp - 250 units, urgent",
+      "fields": {
+        "company": "Pinewood Retail Ltd",
+        "contact_name": "Emma Clark",
+        "email": "emma.clark@pinewoodretail.example",
+        "country": "United States",
+        "product_interest": "Desk lamp LED",
+        "quantity": 250,
+        "target_price": 18.0,
+        "urgency": "high",
+        "summary": "Pinewood Retail needs 250 LED desk lamps delivered before its store refit."
+      },
+      "warnings": [],
+      "raw_model_output": "{\"company\": \"Pinewood Retail Ltd\", \"contact_name\": \"Emma Clark\", \"email\": \"emma.clark@pinewoodretail.example\", \"country\": \"United States\", \"product_interest\": \"Desk lamp LED\", \"quantity\": 250, \"target_price\": \"18.00\", \"urgency\": \"high\", \"summary\": \"Pinewood Retail needs 250 LED desk lamps delivered before its store refit.\"}"
+    },
+    {
+      "id": "REC-005",
+      "subject": "Ballpoint pens - bulk order enquiry",
+      "fields": {
+        "company": "Lumen Print Works",
+        "contact_name": "Yuki Tanaka",
+        "email": "yuki@lumenprint.example",
+        "country": "Japan",
+        "product_interest": "Ballpoint pens, 10-pack",
+        "quantity": 900,
+        "target_price": 0.45,
+        "urgency": "medium",
+        "summary": "Lumen Print Works ordered 900 packs of pens and asked about bulk pricing."
+      },
+      "warnings": [],
+      "raw_model_output": "{\"company\": \"Lumen Print Works\", \"contact_name\": \"Yuki Tanaka\", \"email\": \"yuki@lumenprint.example\", \"country\": \"Japan\", \"product_interest\": \"Ballpoint pens, 10-pack\", \"quantity\": 900, \"target_price\": \"0.45\", \"urgency\": \"medium\", \"summary\": \"Lumen Print Works ordered 900 packs of pens and asked about bulk pricing.\"}"
+    }
+  ]
+}

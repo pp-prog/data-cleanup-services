@@ -1,0 +1,572 @@
+﻿source_sheet,excel_row,booking_no,reason
+2023 Ocak,4,R00042,price 12000 != 3 nights x 40 = 120
+2023 Ocak,5,R00043,price 160 != 5 nights x 40 = 200
+2023 Ocak,9,R00047,price 16000 != 4 nights x 40 = 160
+2023 Ocak,10,R00048,price missing or not a number
+2023 Ocak,11,R00049,price missing or not a number
+2023 Ocak,12,R00050,price missing or not a number
+2023 Ocak,23,R00061,price missing or not a number
+2023 Ocak,25,R00063,price 16000 != 4 nights x 40 = 160
+2023 Ocak,27,R00065,price missing or not a number
+2023 Ocak,29,R00067,price 120 != 4 nights x 40 = 160
+2023 Ocak,33,R00071,price missing or not a number
+2023 Şubat,3,R00081,check-out missing
+2023 Şubat,5,R00083,price missing or not a number
+2023 Şubat,6,R00084,price missing or not a number
+2023 Şubat,13,R00091,price 12000 != 3 nights x 40 = 120
+2023 Şubat,16,R00094,price missing or not a number
+2023 Şubat,18,R00096,price missing or not a number
+2023 Şubat,20,R00098,price missing or not a number
+2023 Şubat,21,R00099,price 40 != 2 nights x 40 = 80
+2023 Şubat,26,R00104,price missing or not a number
+2023 Şubat,26,R00104,ambiguous day-first/month-first - not resolvable
+2023 Mart,6,R00124,price 4000 != 1 nights x 40 = 40
+2023 Mart,8,R00126,price missing or not a number
+2023 Mart,9,R00127,price missing or not a number
+2023 Mart,10,R00128,price missing or not a number
+2023 Mart,12,R00130,price 0 != 1 nights x 40 = 40
+2023 Mart,13,R00131,price 120 != 4 nights x 40 = 160
+2023 Mart,15,R00133,price missing or not a number
+2023 Mart,19,R00137,check-out missing
+2023 Mart,20,R00138,price missing or not a number
+2023 Mart,21,R00139,price missing or not a number
+2023 Mart,24,R00142,price missing or not a number
+2023 Mart,24,R00142,check-out missing
+2023 Mart,25,R00143,price missing or not a number
+2023 Mart,27,R00145,price 16000 != 4 nights x 40 = 160
+2023 Mart,30,R00148,price 24000 != 6 nights x 40 = 240
+2023 Mart,33,R00151,price missing or not a number
+2023 Nisan,4,R00162,price missing or not a number
+2023 Nisan,6,R00164,price missing or not a number
+2023 Nisan,7,R00165,price missing or not a number
+2023 Nisan,8,R00166,price 20000 != 5 nights x 40 = 200
+2023 Nisan,10,R00168,price missing or not a number
+2023 Nisan,17,R00175,price missing or not a number
+2023 Nisan,20,R00178,price 240 != 5 nights x 40 = 200
+2023 Nisan,22,R00180,price missing or not a number
+2023 Nisan,23,R00181,price missing or not a number
+2023 Nisan,24,R00182,check-out missing
+2023 Nisan,25,R00183,price missing or not a number
+2023 Nisan,25,R00183,ambiguous day-first/month-first - not resolvable
+2023 Nisan,27,R00185,price 16000 != 4 nights x 40 = 160
+2023 Nisan,31,R00189,price missing or not a number
+2023 Nisan,32,R00190,price 12000 != 3 nights x 40 = 120
+2023 Nisan,33,R00191,price 16000 != 4 nights x 40 = 160
+2023 Mayıs,3,R00201,price 4000 != 1 nights x 40 = 40
+2023 Mayıs,15,R00213,price missing or not a number
+2023 Mayıs,18,R00216,price 24000 != 6 nights x 40 = 240
+2023 Mayıs,19,R00217,price missing or not a number
+2023 Mayıs,20,R00218,price missing or not a number
+2023 Mayıs,23,R00221,price missing or not a number
+2023 Mayıs,24,R00222,price 4000 != 1 nights x 40 = 40
+2023 Mayıs,26,R00224,price missing or not a number
+2023 Haziran,9,R00247,price missing or not a number
+2023 Haziran,14,R00252,price missing or not a number
+2023 Haziran,15,R00253,price 20000 != 5 nights x 40 = 200
+2023 Haziran,17,R00255,price missing or not a number
+2023 Haziran,19,R00257,price missing or not a number
+2023 Haziran,20,R00258,price 12000 != 3 nights x 40 = 120
+2023 Haziran,29,R00267,price missing or not a number
+2023 Haziran,31,R00269,price missing or not a number
+2023 Haziran,33,R00271,price 24000 != 6 nights x 40 = 240
+2023 Temmuz,6,R00284,price missing or not a number
+2023 Temmuz,10,R00288,ambiguous day-first/month-first - not resolvable
+2023 Temmuz,11,R00289,price missing or not a number
+2023 Temmuz,12,R00290,price 4000 != 1 nights x 40 = 40
+2023 Temmuz,17,R00295,price missing or not a number
+2023 Temmuz,18,R00296,price 4000 != 1 nights x 40 = 40
+2023 Temmuz,21,R00299,ambiguous day-first/month-first - not resolvable
+2023 Temmuz,22,R00300,price missing or not a number
+2023 Temmuz,23,R00301,price missing or not a number
+2023 Temmuz,26,R00304,price missing or not a number
+2023 Temmuz,31,R00309,price 4000 != 1 nights x 40 = 40
+2023 Temmuz,32,R00310,price 12000 != 3 nights x 40 = 120
+2023 Ağustos,5,R00323,price missing or not a number
+2023 Ağustos,6,R00324,price missing or not a number
+2023 Ağustos,7,R00325,price missing or not a number
+2023 Ağustos,8,R00326,price missing or not a number
+2023 Ağustos,9,R00327,check-out missing
+2023 Ağustos,10,R00328,price missing or not a number
+2023 Ağustos,12,R00330,price 24000 != 6 nights x 40 = 240
+2023 Ağustos,15,R00333,price missing or not a number
+2023 Ağustos,21,R00339,price 320 != 6 nights x 40 = 240
+2023 Ağustos,22,R00340,price 20000 != 5 nights x 40 = 200
+2023 Eylül,6,R00364,price 24000 != 6 nights x 40 = 240
+2023 Eylül,13,R00371,price missing or not a number
+2023 Eylül,17,R00375,price 8000 != 2 nights x 40 = 80
+2023 Eylül,19,R00377,price missing or not a number
+2023 Eylül,20,R00378,price 24000 != 6 nights x 40 = 240
+2023 Eylül,21,R00379,price missing or not a number
+2023 Eylül,22,R00380,price missing or not a number
+2023 Eylül,23,R00381,price missing or not a number
+2023 Eylül,28,R00386,price missing or not a number
+2023 Eylül,31,R00389,price missing or not a number
+2023 Eylül,33,R00391,price 20000 != 4 nights x 40 = 160
+2023 Ekim,3,R00401,price missing or not a number
+2023 Ekim,4,R00402,price missing or not a number
+2023 Ekim,7,R00405,ambiguous day-first/month-first - not resolvable
+2023 Ekim,8,R00406,price 280 != 6 nights x 40 = 240
+2023 Ekim,11,R00409,price 8000 != 2 nights x 40 = 80
+2023 Ekim,12,R00410,price 160 != 2 nights x 40 = 80
+2023 Ekim,13,R00411,price 80 != 3 nights x 40 = 120
+2023 Ekim,16,R00414,price missing or not a number
+2023 Ekim,17,R00415,price 24000 != 6 nights x 40 = 240
+2023 Ekim,19,R00417,price 8000 != 2 nights x 40 = 80
+2023 Ekim,22,R00420,price missing or not a number
+2023 Ekim,22,R00420,check-out missing
+2023 Ekim,25,R00423,price missing or not a number
+2023 Ekim,26,R00424,price missing or not a number
+2023 Ekim,29,R00427,price missing or not a number
+2023 Ekim,32,R00430,price missing or not a number
+2023 Kasım,8,R00446,price missing or not a number
+2023 Kasım,10,R00448,price missing or not a number
+2023 Kasım,11,R00449,price missing or not a number
+2023 Kasım,13,R00451,price 20000 != 5 nights x 40 = 200
+2023 Kasım,14,R00452,price missing or not a number
+2023 Kasım,19,R00457,price 24000 != 6 nights x 40 = 240
+2023 Kasım,21,R00459,price missing or not a number
+2023 Kasım,22,R00460,ambiguous day-first/month-first - not resolvable
+2023 Aralık,3,R00481,ambiguous day-first/month-first - not resolvable
+2023 Aralık,4,R00482,price missing or not a number
+2023 Aralık,6,R00484,price missing or not a number
+2023 Aralık,13,R00491,price missing or not a number
+2023 Aralık,14,R00492,price missing or not a number
+2023 Aralık,16,R00494,price 24000 != 6 nights x 40 = 240
+2023 Aralık,17,R00495,price missing or not a number
+2023 Aralık,17,R00495,ambiguous day-first/month-first - not resolvable
+2023 Aralık,18,R00496,price 4000 != 1 nights x 40 = 40
+2023 Aralık,25,R00503,price missing or not a number
+2023 Aralık,25,R00503,ambiguous day-first/month-first - not resolvable
+2023 Aralık,27,R00505,price missing or not a number
+2023 Aralık,28,R00506,price 280 != 6 nights x 40 = 240
+2023 Aralık,32,R00510,price 160 != 2 nights x 40 = 80
+2023 Aralık,33,R00511,price 24000 != 4 nights x 40 = 160
+2023 Aralık,35,R00481,ambiguous day-first/month-first - not resolvable
+2024 Ocak,3,R00521,price 16000 != 4 nights x 40 = 160
+2024 Ocak,7,R00525,price missing or not a number
+2024 Ocak,8,R00526,ambiguous day-first/month-first - not resolvable
+2024 Ocak,14,R00532,price 40 != 2 nights x 40 = 80
+2024 Ocak,15,R00533,price missing or not a number
+2024 Ocak,23,R00541,price missing or not a number
+2024 Ocak,27,R00545,price missing or not a number
+2024 Ocak,28,R00546,ambiguous day-first/month-first - not resolvable
+2024 Ocak,29,R00547,price missing or not a number
+2024 Ocak,29,R00547,ambiguous day-first/month-first - not resolvable
+2024 Ocak,30,R00548,price missing or not a number
+2024 Ocak,33,R00551,ambiguous day-first/month-first - not resolvable
+2024 Ocak,36,R00521,price 16000 != 4 nights x 40 = 160
+2024 Şubat,3,R00561,price missing or not a number
+2024 Şubat,6,R00564,price 0 != 1 nights x 40 = 40
+2024 Şubat,9,R00567,ambiguous day-first/month-first - not resolvable
+2024 Şubat,16,R00574,price missing or not a number
+2024 Şubat,16,R00574,ambiguous day-first/month-first - not resolvable
+2024 Şubat,19,R00577,price missing or not a number
+2024 Şubat,23,R00581,price missing or not a number
+2024 Mart,5,R00603,price missing or not a number
+2024 Mart,6,R00604,price missing or not a number
+2024 Mart,7,R00605,price 8000 != 2 nights x 40 = 80
+2024 Mart,12,R00610,price missing or not a number
+2024 Mart,16,R00614,price missing or not a number
+2024 Mart,18,R00616,price 20000 != 5 nights x 40 = 200
+2024 Mart,19,R00617,price 160 != 5 nights x 40 = 200
+2024 Mart,21,R00619,price 12000 != 3 nights x 40 = 120
+2024 Mart,22,R00620,price 120 != 4 nights x 40 = 160
+2024 Mart,23,R00621,price 20000 != 5 nights x 40 = 200
+2024 Mart,24,R00622,price 160 != 3 nights x 40 = 120
+2024 Mart,25,R00623,price missing or not a number
+2024 Mart,28,R00626,ambiguous day-first/month-first - not resolvable
+2024 Nisan,4,R00642,price missing or not a number
+2024 Nisan,5,R00643,price 4000 != 1 nights x 40 = 40
+2024 Nisan,6,R00644,price missing or not a number
+2024 Nisan,13,R00651,price missing or not a number
+2024 Nisan,20,R00658,price missing or not a number
+2024 Nisan,24,R00662,price missing or not a number
+2024 Nisan,27,R00665,price 8000 != 2 nights x 40 = 80
+2024 Nisan,30,R00668,price 20000 != 5 nights x 40 = 200
+2024 Mayıs,8,R00686,ambiguous day-first/month-first - not resolvable
+2024 Mayıs,12,R00690,price 24000 != 6 nights x 40 = 240
+2024 Mayıs,15,R00693,price missing or not a number
+2024 Mayıs,17,R00695,price 12000 != 3 nights x 40 = 120
+2024 Mayıs,21,R00699,price 12000 != 3 nights x 40 = 120
+2024 Mayıs,22,R00700,ambiguous day-first/month-first - not resolvable
+2024 Mayıs,23,R00701,price missing or not a number
+2024 Mayıs,24,R00702,price 160 != 2 nights x 40 = 80
+2024 Haziran,3,R00721,price 240 != 4 nights x 40 = 160
+2024 Haziran,5,R00723,price 0 != 1 nights x 40 = 40
+2024 Haziran,8,R00726,price 16000 != 4 nights x 40 = 160
+2024 Haziran,9,R00727,ambiguous day-first/month-first - not resolvable
+2024 Haziran,10,R00728,check-out missing
+2024 Haziran,11,R00729,price missing or not a number
+2024 Haziran,11,R00729,check-out missing
+2024 Haziran,15,R00733,price 120 != 2 nights x 40 = 80
+2024 Haziran,17,R00735,price missing or not a number
+2024 Haziran,24,R00742,price 16000 != 4 nights x 40 = 160
+2024 Haziran,26,R00744,price missing or not a number
+2024 Haziran,28,R00746,price missing or not a number
+2024 Haziran,29,R00747,price 4000 != 1 nights x 40 = 40
+2024 Haziran,30,R00748,price 16000 != 4 nights x 40 = 160
+2024 Haziran,35,R00721,price 240 != 4 nights x 40 = 160
+2024 Temmuz,9,R00767,price missing or not a number
+2024 Temmuz,10,R00768,price 120 != 1 nights x 40 = 40
+2024 Temmuz,12,R00770,price missing or not a number
+2024 Temmuz,17,R00775,price 240 != 5 nights x 40 = 200
+2024 Temmuz,19,R00777,price missing or not a number
+2024 Temmuz,20,R00778,price missing or not a number
+2024 Temmuz,21,R00779,price 12000 != 3 nights x 40 = 120
+2024 Temmuz,22,R00780,price 12000 != 3 nights x 40 = 120
+2024 Temmuz,23,R00781,price 8000 != 2 nights x 40 = 80
+2024 Temmuz,25,R00783,price missing or not a number
+2024 Temmuz,29,R00787,price missing or not a number
+2024 Temmuz,33,R00791,price 200 != 4 nights x 40 = 160
+2024 Ağustos,5,R00803,price 20000 != 5 nights x 40 = 200
+2024 Ağustos,7,R00805,price 20000 != 5 nights x 40 = 200
+2024 Ağustos,9,R00807,check-out missing
+2024 Ağustos,11,R00809,ambiguous day-first/month-first - not resolvable
+2024 Ağustos,18,R00816,price missing or not a number
+2024 Ağustos,20,R00818,price missing or not a number
+2024 Ağustos,21,R00819,price missing or not a number
+2024 Ağustos,22,R00820,price missing or not a number
+2024 Ağustos,23,R00821,price missing or not a number
+2024 Ağustos,26,R00824,price 8000 != 2 nights x 40 = 80
+2024 Eylül,3,R00841,price 16000 != 3 nights x 40 = 120
+2024 Eylül,4,R00842,price 16000 != 4 nights x 40 = 160
+2024 Eylül,5,R00843,price missing or not a number
+2024 Eylül,5,R00843,check-out missing
+2024 Eylül,13,R00851,price missing or not a number
+2024 Eylül,18,R00856,price 240 != 4 nights x 40 = 160
+2024 Eylül,19,R00857,price missing or not a number
+2024 Eylül,19,R00857,check-out missing
+2024 Eylül,21,R00859,ambiguous day-first/month-first - not resolvable
+2024 Eylül,24,R00862,price missing or not a number
+2024 Eylül,27,R00865,price 4000 != 1 nights x 40 = 40
+2024 Eylül,29,R00867,price 16000 != 4 nights x 40 = 160
+2024 Eylül,33,R00871,price 120 != 2 nights x 40 = 80
+2024 Ekim,4,R00882,price missing or not a number
+2024 Ekim,5,R00883,price 16000 != 4 nights x 40 = 160
+2024 Ekim,9,R00887,price missing or not a number
+2024 Ekim,11,R00889,price 24000 != 5 nights x 40 = 200
+2024 Ekim,13,R00891,price missing or not a number
+2024 Ekim,15,R00893,price missing or not a number
+2024 Ekim,18,R00896,price 24000 != 6 nights x 40 = 240
+2024 Ekim,22,R00900,price 16000 != 4 nights x 40 = 160
+2024 Ekim,23,R00901,price 24000 != 6 nights x 40 = 240
+2024 Ekim,27,R00905,price 16000 != 4 nights x 40 = 160
+2024 Ekim,28,R00906,price missing or not a number
+2024 Ekim,29,R00907,price missing or not a number
+2024 Ekim,32,R00910,price missing or not a number
+2024 Kasım,7,R00925,ambiguous day-first/month-first - not resolvable
+2024 Kasım,9,R00927,price 8000 != 2 nights x 40 = 80
+2024 Kasım,10,R00928,price missing or not a number
+2024 Kasım,11,R00929,price missing or not a number
+2024 Kasım,13,R00931,price 24000 != 6 nights x 40 = 240
+2024 Kasım,14,R00932,price missing or not a number
+2024 Kasım,15,R00933,ambiguous day-first/month-first - not resolvable
+2024 Kasım,16,R00934,price missing or not a number
+2024 Kasım,17,R00935,price 16000 != 4 nights x 40 = 160
+2024 Kasım,18,R00936,price missing or not a number
+2024 Kasım,20,R00938,price missing or not a number
+2024 Kasım,21,R00939,price 320 != 6 nights x 40 = 240
+2024 Kasım,22,R00940,price missing or not a number
+2024 Kasım,23,R00941,price missing or not a number
+2024 Kasım,23,R00941,ambiguous day-first/month-first - not resolvable
+2024 Kasım,25,R00943,price 0 != 1 nights x 40 = 40
+2024 Kasım,26,R00944,price missing or not a number
+2024 Aralık,4,R00962,price missing or not a number
+2024 Aralık,14,R00972,price 16000 != 4 nights x 40 = 160
+2024 Aralık,15,R00973,ambiguous day-first/month-first - not resolvable
+2024 Aralık,19,R00977,price missing or not a number
+2024 Aralık,20,R00978,price missing or not a number
+2024 Aralık,22,R00980,price 240 != 4 nights x 40 = 160
+2024 Aralık,24,R00982,price 120 != 1 nights x 40 = 40
+2024 Aralık,31,R00989,check-out missing
+2024 Aralık,33,R00991,price 12000 != 3 nights x 40 = 120
+2025 Ocak,3,R01001,price 20000 != 5 nights x 40 = 200
+2025 Ocak,5,R01003,price 12000 != 3 nights x 40 = 120
+2025 Ocak,7,R01005,ambiguous day-first/month-first - not resolvable
+2025 Ocak,16,R01014,ambiguous day-first/month-first - not resolvable
+2025 Ocak,17,R01015,price 4000 != 1 nights x 40 = 40
+2025 Ocak,23,R01021,ambiguous day-first/month-first - not resolvable
+2025 Ocak,25,R01023,ambiguous day-first/month-first - not resolvable
+2025 Ocak,26,R01024,price missing or not a number
+2025 Ocak,27,R01025,price 24000 != 6 nights x 40 = 240
+2025 Ocak,29,R01027,ambiguous day-first/month-first - not resolvable
+2025 Ocak,31,R01029,price 160 != 5 nights x 40 = 200
+2025 Ocak,32,R01030,price missing or not a number
+2025 Ocak,32,R01030,check-out missing
+2025 Şubat,3,R01041,price 12000 != 3 nights x 40 = 120
+2025 Şubat,5,R01043,price missing or not a number
+2025 Şubat,8,R01046,price missing or not a number
+2025 Şubat,10,R01048,price missing or not a number
+2025 Şubat,10,R01048,ambiguous day-first/month-first - not resolvable
+2025 Şubat,11,R01049,price missing or not a number
+2025 Şubat,13,R01051,price missing or not a number
+2025 Şubat,15,R01053,ambiguous day-first/month-first - not resolvable
+2025 Şubat,20,R01058,price 12000 != 3 nights x 40 = 120
+2025 Şubat,21,R01059,price 8000 != 2 nights x 40 = 80
+2025 Şubat,22,R01060,price 20000 != 5 nights x 40 = 200
+2025 Şubat,26,R01064,price missing or not a number
+2025 Mart,12,R01090,price missing or not a number
+2025 Mart,13,R01091,check-out missing
+2025 Mart,14,R01092,price missing or not a number
+2025 Mart,17,R01095,price 12000 != 3 nights x 40 = 120
+2025 Mart,18,R01096,price 8000 != 2 nights x 40 = 80
+2025 Mart,20,R01098,ambiguous day-first/month-first - not resolvable
+2025 Mart,21,R01099,price missing or not a number
+2025 Mart,22,R01100,price 20000 != 5 nights x 40 = 200
+2025 Mart,25,R01103,price 12000 != 2 nights x 40 = 80
+2025 Mart,28,R01106,ambiguous day-first/month-first - not resolvable
+2025 Mart,32,R01110,price 320 != 6 nights x 40 = 240
+2025 Nisan,7,R01125,price 12000 != 3 nights x 40 = 120
+2025 Nisan,13,R01131,ambiguous day-first/month-first - not resolvable
+2025 Nisan,16,R01134,price 4000 != 1 nights x 40 = 40
+2025 Nisan,20,R01138,ambiguous day-first/month-first - not resolvable
+2025 Nisan,29,R01147,price 24000 != 6 nights x 40 = 240
+2025 Nisan,30,R01148,ambiguous day-first/month-first - not resolvable
+2025 Nisan,33,R01151,price 20000 != 5 nights x 40 = 200
+2025 Mayıs,3,R01161,ambiguous day-first/month-first - not resolvable
+2025 Mayıs,4,R01162,price missing or not a number
+2025 Mayıs,4,R01162,ambiguous day-first/month-first - not resolvable
+2025 Mayıs,5,R01163,price missing or not a number
+2025 Mayıs,6,R01164,price missing or not a number
+2025 Mayıs,9,R01167,price 12000 != 3 nights x 40 = 120
+2025 Mayıs,11,R01169,price 320 != 6 nights x 40 = 240
+2025 Mayıs,12,R01170,ambiguous day-first/month-first - not resolvable
+2025 Mayıs,14,R01172,price missing or not a number
+2025 Mayıs,16,R01174,price 24000 != 6 nights x 40 = 240
+2025 Mayıs,17,R01175,price 20000 != 5 nights x 40 = 200
+2025 Mayıs,21,R01179,price 4000 != 1 nights x 40 = 40
+2025 Mayıs,24,R01182,ambiguous day-first/month-first - not resolvable
+2025 Haziran,3,R01201,price missing or not a number
+2025 Haziran,6,R01204,check-out missing
+2025 Haziran,13,R01211,price 12000 != 3 nights x 40 = 120
+2025 Haziran,16,R01214,price missing or not a number
+2025 Haziran,17,R01215,price missing or not a number
+2025 Haziran,20,R01218,price missing or not a number
+2025 Haziran,22,R01220,check-out missing
+2025 Haziran,27,R01225,price missing or not a number
+2025 Haziran,28,R01226,ambiguous day-first/month-first - not resolvable
+2025 Haziran,31,R01229,price 40 != 2 nights x 40 = 80
+2025 Haziran,35,R01201,price missing or not a number
+2025 Temmuz,5,R01243,price missing or not a number
+2025 Temmuz,6,R01244,ambiguous day-first/month-first - not resolvable
+2025 Temmuz,8,R01246,price 12000 != 4 nights x 40 = 160
+2025 Temmuz,10,R01248,price missing or not a number
+2025 Temmuz,11,R01249,price missing or not a number
+2025 Temmuz,13,R01251,ambiguous day-first/month-first - not resolvable
+2025 Temmuz,14,R01252,price missing or not a number
+2025 Temmuz,16,R01254,price 0 != 1 nights x 40 = 40
+2025 Temmuz,19,R01257,price missing or not a number
+2025 Temmuz,21,R01259,price 40 != 2 nights x 40 = 80
+2025 Temmuz,26,R01264,price missing or not a number
+2025 Temmuz,28,R01266,check-out missing
+2025 Temmuz,29,R01267,ambiguous day-first/month-first - not resolvable
+2025 Temmuz,30,R01268,price 20000 != 5 nights x 40 = 200
+2025 Temmuz,32,R01270,price 12000 != 3 nights x 40 = 120
+2025 Temmuz,33,R01271,price 12000 != 3 nights x 40 = 120
+2025 Ağustos,3,R01281,price missing or not a number
+2025 Ağustos,4,R01282,price 20000 != 5 nights x 40 = 200
+2025 Ağustos,7,R01285,price 16000 != 4 nights x 40 = 160
+2025 Ağustos,8,R01286,price 16000 != 4 nights x 40 = 160
+2025 Ağustos,11,R01289,price missing or not a number
+2025 Ağustos,12,R01290,price 40 != 2 nights x 40 = 80
+2025 Ağustos,13,R01291,price missing or not a number
+2025 Ağustos,14,R01292,price 120 != 2 nights x 40 = 80
+2025 Ağustos,15,R01293,price missing or not a number
+2025 Ağustos,15,R01293,check-out missing
+2025 Ağustos,17,R01295,price 0 != 1 nights x 40 = 40
+2025 Ağustos,21,R01299,check-out missing
+2025 Ağustos,29,R01281,price missing or not a number
+2025 Eylül,7,R01325,price 20000 != 5 nights x 40 = 200
+2025 Eylül,8,R01326,price missing or not a number
+2025 Eylül,10,R01328,price missing or not a number
+2025 Eylül,11,R01329,price missing or not a number
+2025 Eylül,12,R01330,price missing or not a number
+2025 Eylül,18,R01336,price missing or not a number
+2025 Eylül,21,R01339,price missing or not a number
+2025 Eylül,24,R01342,price missing or not a number
+2025 Eylül,25,R01343,price 12000 != 26 nights x 40 = 1040
+2025 Eylül,27,R01345,price 12000 != 3 nights x 40 = 120
+2025 Eylül,30,R01348,price missing or not a number
+2025 Eylül,33,R01351,price 120 != 2 nights x 40 = 80
+2025 Ekim,9,R01367,price 4000 != 1 nights x 40 = 40
+2025 Ekim,19,R01377,price missing or not a number
+2025 Ekim,21,R01379,price 0 != 1 nights x 40 = 40
+2025 Ekim,22,R01380,price 4000 != 1 nights x 40 = 40
+2025 Ekim,26,R01384,price 20000 != 5 nights x 40 = 200
+2025 Ekim,29,R01387,price 8000 != 2 nights x 40 = 80
+2025 Kasım,4,R01402,price 8000 != 2 nights x 40 = 80
+2025 Kasım,8,R01406,price missing or not a number
+2025 Kasım,12,R01410,check-out missing
+2025 Kasım,14,R01412,price 0 != 1 nights x 40 = 40
+2025 Kasım,15,R01413,price 120 != 2 nights x 40 = 80
+2025 Kasım,16,R01414,price missing or not a number
+2025 Kasım,16,R01414,check-out missing
+2025 Kasım,17,R01415,check-out missing
+2025 Kasım,18,R01416,price missing or not a number
+2025 Kasım,18,R01416,check-out missing
+2025 Kasım,20,R01418,price 16000 != 4 nights x 40 = 160
+2025 Kasım,24,R01422,price 4000 != 1 nights x 40 = 40
+2025 Kasım,25,R01423,price 24000 != 6 nights x 40 = 240
+2025 Kasım,26,R01424,price missing or not a number
+2025 Aralık,3,R01441,price 20000 != 5 nights x 40 = 200
+2025 Aralık,6,R01444,price missing or not a number
+2025 Aralık,9,R01447,price missing or not a number
+2025 Aralık,9,R01447,check-out missing
+2025 Aralık,13,R01451,price missing or not a number
+2025 Aralık,15,R01453,price missing or not a number
+2025 Aralık,20,R01458,price 8000 != 2 nights x 40 = 80
+2025 Aralık,21,R01459,price 24000 != 6 nights x 40 = 240
+2025 Aralık,23,R01461,price 8000 != 2 nights x 40 = 80
+2025 Aralık,26,R01464,price missing or not a number
+2025 Aralık,28,R01466,price missing or not a number
+2025 Aralık,29,R01467,price missing or not a number
+2025 Aralık,32,R01470,price 80 != 3 nights x 40 = 120
+2026 Ocak,3,R01481,price missing or not a number
+2026 Ocak,4,R01482,price missing or not a number
+2026 Ocak,7,R01485,price missing or not a number
+2026 Ocak,8,R01486,price 8000 != 2 nights x 40 = 80
+2026 Ocak,9,R01487,price missing or not a number
+2026 Ocak,10,R01488,price 16000 != 4 nights x 40 = 160
+2026 Ocak,12,R01490,price missing or not a number
+2026 Ocak,14,R01492,price 4000 != 1 nights x 40 = 40
+2026 Ocak,15,R01493,price missing or not a number
+2026 Ocak,17,R01495,price 8000 != 2 nights x 40 = 80
+2026 Ocak,18,R01496,price missing or not a number
+2026 Ocak,22,R01500,price missing or not a number
+2026 Ocak,22,R01500,ambiguous day-first/month-first - not resolvable
+2026 Ocak,24,R01502,price missing or not a number
+2026 Ocak,26,R01504,price missing or not a number
+2026 Ocak,27,R01505,price missing or not a number
+2026 Ocak,36,R01481,price missing or not a number
+2026 Şubat,5,R01523,ambiguous day-first/month-first - not resolvable
+2026 Şubat,6,R01524,price 4000 != 1 nights x 40 = 40
+2026 Şubat,7,R01525,price missing or not a number
+2026 Şubat,12,R01530,price missing or not a number
+2026 Şubat,15,R01533,price 4000 != 1 nights x 40 = 40
+2026 Şubat,18,R01536,price missing or not a number
+2026 Şubat,20,R01538,price missing or not a number
+2026 Şubat,21,R01539,price missing or not a number
+2026 Şubat,23,R01541,price 4000 != 1 nights x 40 = 40
+2026 Şubat,24,R01542,price 24000 != 6 nights x 40 = 240
+2026 Şubat,25,R01543,price 12000 != 3 nights x 40 = 120
+2026 Şubat,26,R01544,price missing or not a number
+2026 Mart,5,R01563,price 24000 != 6 nights x 40 = 240
+2026 Mart,7,R01565,price 16000 != 4 nights x 40 = 160
+2026 Mart,9,R01567,price missing or not a number
+2026 Mart,10,R01568,price missing or not a number
+2026 Mart,12,R01570,price 12000 != 3 nights x 40 = 120
+2026 Mart,13,R01571,price 8000 != 2 nights x 40 = 80
+2026 Mart,15,R01573,price missing or not a number
+2026 Mart,16,R01574,price 20000 != 5 nights x 40 = 200
+2026 Mart,18,R01576,check-out missing
+2026 Mart,21,R01579,price missing or not a number
+2026 Mart,22,R01580,price missing or not a number
+2026 Mart,25,R01583,price 16000 != 4 nights x 40 = 160
+2026 Mart,27,R01585,price missing or not a number
+2026 Mart,30,R01588,price 8000 != 2 nights x 40 = 80
+2026 Mart,33,R01591,price missing or not a number
+2026 Nisan,4,R01602,price 240 != 4 nights x 40 = 160
+2026 Nisan,8,R01606,ambiguous day-first/month-first - not resolvable
+2026 Nisan,11,R01609,price 12000 != 3 nights x 40 = 120
+2026 Nisan,16,R01614,price missing or not a number
+2026 Nisan,19,R01617,price 320 != 6 nights x 40 = 240
+2026 Nisan,23,R01621,price 24000 != 6 nights x 40 = 240
+2026 Nisan,25,R01623,check-out missing
+2026 Nisan,26,R01624,price missing or not a number
+2026 Nisan,29,R01627,ambiguous day-first/month-first - not resolvable
+2026 Nisan,30,R01628,check-out missing
+2026 Nisan,31,R01629,price 24000 != 6 nights x 40 = 240
+2026 Nisan,32,R01630,price missing or not a number
+2026 Mayıs,3,R01641,price missing or not a number
+2026 Mayıs,5,R01643,price 16000 != 4 nights x 40 = 160
+2026 Mayıs,7,R01645,price missing or not a number
+2026 Mayıs,10,R01648,price missing or not a number
+2026 Mayıs,11,R01649,price 20000 != 5 nights x 40 = 200
+2026 Mayıs,13,R01651,price 20000 != 5 nights x 40 = 200
+2026 Mayıs,14,R01652,price 160 != 3 nights x 40 = 120
+2026 Mayıs,18,R01656,price missing or not a number
+2026 Mayıs,19,R01657,price 12000 != 3 nights x 40 = 120
+2026 Mayıs,20,R01658,price missing or not a number
+2026 Mayıs,29,R01641,price missing or not a number
+2026 Haziran,4,R01682,price 320 != 6 nights x 40 = 240
+2026 Haziran,6,R01684,price 12000 != 3 nights x 40 = 120
+2026 Haziran,9,R01687,price missing or not a number
+2026 Haziran,10,R01688,check-out missing
+2026 Haziran,17,R01695,price missing or not a number
+2026 Haziran,20,R01698,ambiguous day-first/month-first - not resolvable
+2026 Haziran,23,R01701,ambiguous day-first/month-first - not resolvable
+2026 Haziran,28,R01706,price 12000 != 3 nights x 40 = 120
+2026 Haziran,31,R01709,price missing or not a number
+2026 Haziran,33,R01711,price missing or not a number
+2026 Temmuz,4,R01722,price 12000 != 3 nights x 40 = 120
+2026 Temmuz,6,R01724,price missing or not a number
+2026 Temmuz,11,R01729,price missing or not a number
+2026 Temmuz,12,R01730,check-out missing
+2026 Temmuz,20,R01738,price 32000 != 6 nights x 40 = 240
+2026 Temmuz,21,R01739,price 4000 != 1 nights x 40 = 40
+2026 Temmuz,22,R01740,check-out missing
+2026 Temmuz,24,R01742,price missing or not a number
+2026 Temmuz,26,R01744,price missing or not a number
+2026 Temmuz,28,R01746,price missing or not a number
+2026 Temmuz,29,R01747,ambiguous day-first/month-first - not resolvable
+2026 Temmuz,30,R01748,ambiguous day-first/month-first - not resolvable
+2026 Temmuz,31,R01749,price missing or not a number
+2026 Temmuz,32,R01750,price missing or not a number
+2026 Temmuz,33,R01751,ambiguous day-first/month-first - not resolvable
+2026 Ağustos,3,R01761,check-out missing
+2026 Ağustos,6,R01764,price missing or not a number
+2026 Ağustos,7,R01765,price missing or not a number
+2026 Ağustos,9,R01767,price missing or not a number
+2026 Ağustos,11,R01769,price missing or not a number
+2026 Ağustos,12,R01770,price missing or not a number
+2026 Ağustos,14,R01772,ambiguous day-first/month-first - not resolvable
+2026 Ağustos,15,R01773,price 24000 != 6 nights x 40 = 240
+2026 Ağustos,18,R01776,ambiguous day-first/month-first - not resolvable
+2026 Ağustos,19,R01777,price missing or not a number
+2026 Ağustos,20,R01778,ambiguous day-first/month-first - not resolvable
+2026 Ağustos,21,R01779,price 24000 != 6 nights x 40 = 240
+2026 Ağustos,22,R01780,check-out missing
+2026 Ağustos,23,R01781,price 8000 != 2 nights x 40 = 80
+2026 Eylül,4,R01802,price missing or not a number
+2026 Eylül,5,R01803,price 20000 != 5 nights x 40 = 200
+2026 Eylül,8,R01806,price missing or not a number
+2026 Eylül,13,R01811,price missing or not a number
+2026 Eylül,15,R01813,price 240 != 5 nights x 40 = 200
+2026 Eylül,16,R01814,price 20000 != 5 nights x 40 = 200
+2026 Eylül,17,R01815,price missing or not a number
+2026 Eylül,18,R01816,ambiguous day-first/month-first - not resolvable
+2026 Eylül,20,R01818,ambiguous day-first/month-first - not resolvable
+2026 Eylül,21,R01819,price missing or not a number
+2026 Eylül,23,R01821,price 0 != 1 nights x 40 = 40
+2026 Eylül,30,R01828,price 16000 != 4 nights x 40 = 160
+2026 Eylül,32,R01830,price missing or not a number
+2026 Ekim,5,R01843,price missing or not a number
+2026 Ekim,6,R01844,price missing or not a number
+2026 Ekim,8,R01846,price 240 != 4 nights x 40 = 160
+2026 Ekim,9,R01847,check-out missing
+2026 Ekim,13,R01851,price missing or not a number
+2026 Ekim,19,R01857,price missing or not a number
+2026 Ekim,21,R01859,price missing or not a number
+2026 Ekim,23,R01861,price missing or not a number
+2026 Ekim,28,R01866,ambiguous day-first/month-first - not resolvable
+2026 Ekim,30,R01868,ambiguous day-first/month-first - not resolvable
+2026 Ekim,31,R01869,price 12000 != 3 nights x 40 = 120
+2026 Ekim,32,R01870,price missing or not a number
+2026 Kasım,3,R01881,check-out missing
+2026 Kasım,8,R01886,price missing or not a number
+2026 Kasım,15,R01893,price missing or not a number
+2026 Kasım,19,R01897,price 8000 != 2 nights x 40 = 80
+2026 Kasım,28,R01881,check-out missing
+2026 Aralık,3,R01921,price missing or not a number
+2026 Aralık,4,R01922,price 12000 != 3 nights x 40 = 120
+2026 Aralık,5,R01923,price 80 != 1 nights x 40 = 40
+2026 Aralık,13,R01931,price 8000 != 2 nights x 40 = 80
+2026 Aralık,14,R01932,price missing or not a number
+2026 Aralık,16,R01934,price 280 != 5 nights x 40 = 200
+2026 Aralık,17,R01935,price 200 != 3 nights x 40 = 120
+2026 Aralık,21,R01939,price missing or not a number
+2026 Aralık,22,R01940,price missing or not a number
+2026 Aralık,26,R01944,price 12000 != 3 nights x 40 = 120
+2026 Aralık,27,R01945,check-out missing
+2026 Aralık,29,R01947,price missing or not a number
+2026 Aralık,33,R01951,price 16000 != 4 nights x 40 = 160

@@ -1,0 +1,30 @@
+{
+  "_note": "Fictional demo enquiries used by the portfolio sample. No real company or person.",
+  "records": [
+    {
+      "id": "REC-001",
+      "subject": "A4 copy paper - quarterly price request",
+      "body": "Hi, this is Marta Kowalski from Northwind Office Supply (US).\n\nWe buy A4 copy paper, 500 sheets per box, roughly 400 boxes a quarter.\nOur current supplier charges us $6.80 per box. Could you quote around $6.20 if we commit to a quarterly order?\n\nWe need this confirmed before the end of the month as our purchasing cycle closes. Thanks.\n\nMarta Kowalski\nm.kowalski@northwind-office.example"
+    },
+    {
+      "id": "REC-002",
+      "subject": "Heavy duty stapler 65mm - 120 units",
+      "body": "Hello,\n\nDevi Anand here from Blue Harbor Logistics, based in India. We are looking at heavy duty staplers, 65mm, for our warehouse team. Quantity is 120 units for the first order.\n\nOur budget is around 22 dollars per unit. Delivery to Chennai would be ideal. No rush, we can wait a couple of weeks.\n\nBest,\nDevi Anand\ndevi@blueharbor.example"
+    },
+    {
+      "id": "REC-003",
+      "subject": "Ergonomic mouse - catalogue request",
+      "body": "Hi there,\n\nSam O'Brien from Kestrel Media, United Kingdom. We would like a catalogue and your price list for ergonomic mice. We are thinking about 60 units for the studio team.\n\nWe are not in a hurry at all - just exploring options for next quarter. A price guide would be most helpful.\n\nThanks,\nSam O'Brien\nsam@kestrelmedia.example"
+    },
+    {
+      "id": "REC-004",
+      "subject": "LED desk lamp - 250 units, urgent",
+      "body": "Hello,\n\nEmma Clark, Pinewood Retail Ltd, United States. We refit 12 stores in January and need 250 LED desk lamps delivered before the refit starts.\n\nTarget price is 18 dollars per lamp. This is time sensitive - can you confirm stock and delivery by early January?\n\nEmma Clark\nemma.clark@pinewoodretail.example"
+    },
+    {
+      "id": "REC-005",
+      "subject": "Ballpoint pens - bulk order enquiry",
+      "body": "Good afternoon,\n\nYuki Tanaka from Lumen Print Works (Japan). We would like to order 900 packs of ballpoint pens, 10 pens per pack, in black.\n\nOur target is 0.45 per pen. Please send your bulk pricing and lead time. Medium urgency - we need it before our print run in March.\n\nRegards,\nYuki Tanaka\nyuki@lumenprint.example"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+product_name,price,list_price,currency,sku,availability,category,rating,review_count,source_page
+Heavy Duty Stapler 65mm,24.99,32.50,USD,DM-1001,in_stock,office supplies,4.6,214,page1_office_supplies.html
+A4 Copy Paper — 500 Sheets,6.49,,USD,DM-1002,in_stock,office supplies,4.8,1032,page1_office_supplies.html
+Gel Pens Black (Pack of 12),8.99,11.00,USD,DM-1003,out_of_stock,office supplies,4.1,88,page1_office_supplies.html
+Ergonomic Mouse,19.90,,EUR,DM-1004,in_stock,office supplies,4.4,57,page1_office_supplies.html
+Desk Lamp LED,24.50,,EUR,DM-1005,preorder,office supplies,3.9,12,page1_office_supplies.html
+Document Folder A4,1.25,,USD,DM-1006,in_stock,office supplies,4.0,9,page1_office_supplies.html
+Ring Binder A4 75mm,4.20,5.95,GBP,DM-1007,in_stock,office supplies,4.5,41,page1_office_supplies.html
+Ballpoint Pens (10 pack),480.00,,JPY,DM-1008,in_stock,office supplies,4.2,133,page1_office_supplies.html
+Heavy Duty Stapler 65mm (2-pack),44.99,58.00,USD,DM-1009,in_stock,office supplies,4.6,214,page1_office_supplies.html
+Whiteboard Markers (8 colours),14.75,,USD,DM-1010,out_of_stock,office supplies,4.7,26,page1_office_supplies.html
+Paper Shredder 7-Shred,89.00,109.00,EUR,DM-1011,in_stock,office supplies,4.3,74,page1_office_supplies.html
+Archive Box (Pack of 5),18.40,,USD,DM-1012,in_stock,office supplies,3.5,3,page1_office_supplies.html
+Desk Organiser Tray,12.40,15.00,USD,DM-2001,in_stock,office supplies,4.3,19,page2_listing_api.json
+Highlighters (Pack of 6),4.25,,USD,DM-2002,out_of_stock,office supplies,4.0,6,page2_listing_api.json
+Notice Board 90x60,22.00,,EUR,DM-2003,in_stock,office supplies,4.6,31,page2_listing_api.json
+Monitor Stand Riser,27.90,,GBP,DM-2004,preorder,office supplies,3.8,4,page2_listing_api.json
