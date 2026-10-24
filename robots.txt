@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pp-prog.github.io/data-cleanup-services/sitemap.xml
