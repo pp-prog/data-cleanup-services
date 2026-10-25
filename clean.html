@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>在线表格清洗 — 打开网页就能用，文件不离开你的电脑</title>
+<meta name="description" content="把乱糟糟的供应商表/客户表/订单表洗成干净表 + 待复核表 + 处理报告。直接在浏览器里跑，文件不上传、不注册、不下载。">
+<link rel="canonical" href="https://pp-prog.github.io/data-cleanup-services/clean.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="数据清洗样品与工具">
+<meta property="og:title" content="在线表格清洗 — 打开网页就能用，文件不离开你的电脑">
+<meta property="og:description" content="乱表进去，干净表 + 待复核清单 + 处理报告出来。浏览器本地跑，零安装零上传。">
+<meta property="og:url" content="https://pp-prog.github.io/data-cleanup-services/clean.html">
+<meta property="og:image" content="https://pp-prog.github.io/data-cleanup-services/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="在线表格清洗 — 打开网页就能用">
+<meta name="twitter:description" content="乱表进去，干净表 + 待复核清单 + 处理报告出来。浏览器本地跑，零安装零上传。">
+<meta name="twitter:image" content="https://pp-prog.github.io/data-cleanup-services/og-card.png">
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#252a34;--fg:#e6e8ee;--dim:#9aa3b2;--acc:#4ade80;--acc2:#60a5fa;--warn:#fbbf24;--err:#f87171}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:44px 0 22px;border-bottom:1px solid var(--line)}
+  h1{font-size:27px;margin:0 0 8px}
+  .sub{color:var(--dim)}
+  h2{font-size:19px;margin:34px 0 8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
+  .btn{display:inline-block;background:var(--acc);color:#06240f;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;margin:6px 8px 6px 0;border:0;cursor:pointer;font-size:15px}
+  .btn2{background:#1d2530;color:var(--fg);border:1px solid var(--line)}
+  code{background:#11141a;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:13px}
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+  th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left}
+  th{color:var(--dim);font-weight:600}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--dim);margin:0 6px 6px 0}
+  .warn{color:var(--warn)}
+  .err{color:var(--err)}
+  .ok{color:var(--acc)}
+  textarea{width:100%;min-height:140px;background:#11141a;color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:12px;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+  .drop{border:1px dashed var(--line);border-radius:10px;padding:26px;text-align:center;color:var(--dim);margin:10px 0;transition:.15s}
+  .drop.hot{border-color:var(--acc);color:var(--acc);background:#14231b}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+  .stat{background:#11141a;border:1px solid var(--line);border-radius:10px;padding:12px}
+  .stat b{display:block;font-size:22px;line-height:1.3}
+  .stat span{color:var(--dim);font-size:13px}
+  .qr{width:150px;height:150px;border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:12px;text-align:center;margin:10px 0}
+  a{color:var(--acc2)}
+  ol,ul{padding-left:20px}
+  footer{border-top:1px solid var(--line);padding:22px 0;color:var(--dim);font-size:13px;margin-top:32px}
+  .small{font-size:13px;color:var(--dim)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>在线表格清洗（浏览器本地版）</h1>
+  <div class="sub">把乱糟糟的供应商表 / 客户表 / 订单表洗成 <strong>干净表 + 待复核表 + 处理报告</strong>。
+  <strong>不用装环境、不用注册、不用下载，文件全程不离开你的电脑。</strong></div>
+  <div style="margin-top:14px">
+    <span class="pill">纯本地运行 · 零上传</span><span class="pill">行数守恒 · 不静默丢行</span>
+    <span class="pill">修不好的单独列出来</span><span class="pill">免费</span>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<h2>三步</h2>
+<div class="card">
+  <ol>
+    <li>把你的表（.csv）拖进下面的框，或直接粘贴文本</li>
+    <li>点「开始清洗」——几十毫秒</li>
+    <li>下载 <code>clean_master.csv</code>（干净表）、<code>needs_review.csv</code>（要你自己确认的行）、<code>report.json</code>（行数对账报告）</li>
+  </ol>
+  <p class="small">支持的列：姓名/公司、邮箱、电话、日期、金额、币种、数量（中文英文表头都认，自动识别哪列是什么）。
+  多份同构表可以先各自清洗，再把干净表拼起来。</p>
+</div>
+
+<h2>1 · 把表放进来</h2>
+<div class="drop" id="drop">把 .csv 文件拖到这里，或 <label style="color:var(--acc2);cursor:pointer;text-decoration:underline">选择文件<input type="file" id="file" accept=".csv,text/csv" hidden></label></div>
+<p class="small">或者直接粘贴（Excel 里「另存为 CSV」再全选复制过来也行）：</p>
+<textarea id="paste" placeholder="供应商,邮箱,联系方式,订单日期,金额&#10;示例科技有限公司,INFO@Example.COM ,138 0013 8000,2024/1/5,1.234,56"></textarea>
+<div style="margin:12px 0">
+  <button class="btn" id="run">开始清洗</button>
+  <button class="btn btn2" id="sample">用示例数据试一下</button>
+  <button class="btn btn2" id="clear">清空</button>
+</div>
+
+<h2>2 · 结果</h2>
+<div id="result"></div>
+
+<h2>它到底做了什么</h2>
+<div class="card">
+  <ul>
+    <li><strong>自动认表头</strong>：<code>供应商 / 公司 / Vendor</code> → 姓名；<code>邮箱</code> → email；<code>金额 / 应付金额</code> → amount…</li>
+    <li><strong>日期归一</strong>：<code>2024/1/5</code>、<code>2024年1月5日</code>、<code>Jan 8 2024</code> → <code>2024-01-05</code></li>
+    <li><strong>金额归一</strong>：<code>240 USD</code>、<code>1.234,56</code>（欧式）、<code>1,234.50</code>（美式）、<code>(240)</code>（负数）</li>
+    <li><strong>邮箱校验</strong>：大小写归一；<strong>非法邮箱不猜</strong>，直接进复核表</li>
+    <li><strong>电话清洗</strong>：<code>+81 (0)90-1234-5678 ext.22</code> → <code>8109012345678</code></li>
+    <li><strong>币种识别</strong>：<code>¥ € $ USD CNY</code> → ISO 代码</li>
+    <li><strong>去重合并</strong>：同邮箱或同电话视为同一主体，合并并记录合并了几行</li>
+    <li><strong>行数守恒</strong>：入 = 干净 + 待复核 + 合并，一行都不会悄悄消失</li>
+  </ul>
+</div>
+
+<h2>三条原则</h2>
+<div class="card">
+  <ul>
+    <li><strong>不编造数据</strong> —— 修不好的值不猜，落到复核表里让你看见。</li>
+    <li><strong>不静默丢行</strong> —— 每一行要么进干净表，要么进复核表。</li>
+    <li><strong>不覆盖原文件</strong> —— 你的原表永远不动。</li>
+  </ul>
+</div>
+
+<h2>跑不了 / 数据太大 / 想省事？</h2>
+<div class="card">
+  <p>这一页能处理绝大多数「合并 + 归一 + 标出可疑行」的活。真正花钱买的是剩下那 20% ——
+  判断哪些脏数据<strong>不能</strong>动、哪些该合并、哪些要回源核对。</p>
+  <p><strong>方式一</strong>：把下面这段话复制下来，用微信或邮件发我（<strong>可复制的询价单</strong>，你填好表头和行数即可）。</p>
+  <textarea id="inquiry" readonly style="min-height:104px"></textarea>
+  <div style="margin:10px 0">
+    <button class="btn btn2" id="copyInquiry">复制询价单</button>
+  </div>
+  <p><strong>方式二</strong>：走 <a href="https://github.com/pp-prog/data-cleanup-services/issues/new?title=%E8%AF%A2%E4%BB%B7%EF%BC%9A%E4%BD%A0%E7%9A%84%E9%9C%80%E6%B1%82%20%2B%20%E7%9B%AE%E6%A0%87%E5%AD%97%E6%AE%B5">仓库 Issues 提交询价单</a>
+  （<span class="warn">这条走 GitHub，海外网络更顺；国内网络常常打不开 github.com，属于正常现象</span>）。</p>
+  <p><strong>付款</strong>：微信 / 支付宝（人民币）或 PayPal（美元）。</p>
+  <div class="qr">收款码<br>&lt;&lt;RECEIPT_QR&gt;&gt;</div>
+  <p class="warn">（收款码位待放图——我不放假的。二维码未就位前，先走询价单流程。）</p>
+</div>
+
+<h2>信任一下这个工具</h2>
+<div class="card">
+  <p class="small">点下面这个按钮，会在你自己的浏览器里跑一遍内置自检（不联网、不上传）。</p>
+  <button class="btn btn2" id="selftest">跑一遍内置自检</button>
+  <div id="stOut" class="small" style="margin-top:10px"></div>
+</div>
+
+<footer>
+  想在电脑上批量跑？用命令行版（单文件，零依赖）：
+  <a href="https://pp-prog.github.io/data-cleanup-services/table-cleaner-toolkit-v1.0.0.zip">下载 zip</a> ·
+  <a href="https://pp-prog.github.io/data-cleanup-services/clean_my_table.py">直接取 clean_my_table.py</a><br>
+  全部源码与 4 套样品工程：<a href="https://github.com/pp-prog/data-cleanup-services">github.com/pp-prog/data-cleanup-services</a>（MIT）<br>
+  示例数据均为合成数据，不含任何真实客户数据、凭据或身份信息。
+</footer>
+
+</div>
+
+<script src="browser-cleaner.js"></script>
+<script>
+(function () {
+  var BC = window.BrowserCleaner;
+  var $ = function (id) { return document.getElementById(id); };
+
+  var SAMPLE = [
+    '供应商,邮箱,联系方式,订单日期,金额',
+    '示例科技有限公司,INFO@Example.COM ,138 0013 8000,2024/1/5,1.234,56',
+    '示例科技有限公司,info@example.com,13800138000,2024-01-05,1234.56',
+    '另一家咨询公司,not-an-email,,2024年1月8日,240 USD',
+    '第三家供应商,hi@third.com,(240),Jan 8 2024,¥980'
+  ].join('\n');
+
+  function download(name, text, mime) {
+    var blob = new Blob(['\uFEFF' + text], { type: (mime || 'text/csv') + ';charset=utf-8' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  }
+
+  function esc(s) {
+    return String(s === null || s === undefined ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function run() {
+    var text = $('paste').value;
+    if (!text || !text.trim()) {
+      $('result').innerHTML = '<p class="err">先把表放进来（拖文件或粘贴文本）。</p>';
+      return;
+    }
+    var res;
+    try { res = BC.cleanTable(text, { source: 'online' }); }
+    catch (e) {
+      $('result').innerHTML = '<p class="err">解析出错：' + esc(e && e.message ? e.message : e) + '</p>';
+      return;
+    }
+    var r = res.report;
+    var html = '<div class="grid">';
+    html += '<div class="stat"><b>' + r.rows_in + '</b><span>读入行数</span></div>';
+    html += '<div class="stat"><b class="ok">' + r.rows_clean + '</b><span>干净表</span></div>';
+    html += '<div class="stat"><b class="warn">' + r.rows_review + '</b><span>待你复核</span></div>';
+    html += '<div class="stat"><b>' + r.rows_merged + '</b><span>判重合并</span></div>';
+    html += '</div>';
+    html += '<p class="' + (r.row_conservation ? 'ok' : 'err') + '">行数守恒校验：' +
+      (r.row_conservation ? '通过（' + r.rows_in + ' = ' + r.rows_clean + ' + ' + r.rows_review + ' + ' + r.rows_merged + '）' : '未通过，请检查') + '</p>';
+
+    var rolePairs = [];
+    Object.keys(r.detected_roles || {}).forEach(function (h) {
+      rolePairs.push('<code>' + esc(h) + '</code> → ' + esc(r.detected_roles[h]));
+    });
+    if (rolePairs.length) {
+      html += '<p class="small">识别到的列：' + rolePairs.join('；') + '</p>';
+    }
+    var iss = Object.keys(r.issues || {});
+    if (iss.length) {
+      html += '<p class="small">发现的问题：' + iss.map(function (k) { return esc(k) + '×' + r.issues[k]; }).join('；') + '</p>';
+    }
+
+    html += '<div style="margin:14px 0">';
+    html += '<button class="btn" id="dlClean">下载干净表 clean_master.csv</button>';
+    html += '<button class="btn btn2" id="dlReview">下载待复核表 needs_review.csv</button>';
+    html += '<button class="btn btn2" id="dlReport">下载报告 report.json</button>';
+    html += '</div>';
+
+    if (res.reviewRows && res.reviewRows.length) {
+      html += '<div style="max-height:260px;overflow:auto"><table><tr><th>行号</th><th>名字</th><th>邮箱</th><th>问题</th></tr>';
+      res.reviewRows.slice(0, 40).forEach(function (row) {
+        html += '<tr><td>' + esc(row.source_row) + '</td><td>' + esc(row.name) + '</td><td>' + esc(row.email) +
+          '</td><td class="warn">' + esc(row.reason) + '</td></tr>';
+      });
+      html += '</table></div>';
+      if (res.reviewRows.length > 40) html += '<p class="small">（只列前 40 行，完整内容见下载的 needs_review.csv）</p>';
+    }
+
+    $('result').innerHTML = html;
+    $('dlClean').onclick = function () { download('clean_master.csv', BC.toCSV(res.cleanHeaders, res.cleanRows)); };
+    $('dlReview').onclick = function () {
+      download('needs_review.csv', BC.toCSV(
+        ['source_row', 'name', 'email', 'phone', 'date', 'amount', 'currency', 'qty', 'reason', 'raw'],
+        res.reviewRows));
+    };
+    $('dlReport').onclick = function () { download('report.json', JSON.stringify(res.report, null, 2), 'application/json'); };
+  }
+
+  // ---- 拖放 / 选文件 ----
+  var drop = $('drop'), fileInput = $('file');
+  ['dragenter', 'dragover'].forEach(function (ev) {
+    drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.add('hot'); });
+  });
+  ['dragleave', 'drop'].forEach(function (ev) {
+    drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove('hot'); });
+  });
+  drop.addEventListener('drop', function (e) {
+    var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+    if (f) readFile(f);
+  });
+  fileInput.addEventListener('change', function () {
+    if (fileInput.files && fileInput.files[0]) readFile(fileInput.files[0]);
+  });
+  function readFile(f) {
+    var r = new FileReader();
+    r.onload = function () { $('paste').value = String(r.result || ''); run(); };
+    r.onerror = function () { $('result').innerHTML = '<p class="err">文件读取失败，换一种方式试试。</p>'; };
+    r.readAsText(f, 'utf-8');
+  }
+
+  $('run').onclick = run;
+  $('sample').onclick = function () { $('paste').value = SAMPLE; run(); };
+  $('clear').onclick = function () { $('paste').value = ''; $('result').innerHTML = ''; };
+
+  // ---- 询价单模板 ----
+  $('inquiry').value = [
+    '【表格清洗询价】',
+    '我要清洗的表大概行数：____ 行（约 ____ 个 sheet）',
+    '我需要的字段：____（例如 姓名 / 邮箱 / 电话 / 日期 / 金额）',
+    '表里最麻烦的地方：____（例如 多家供应商列名不一样 / 金额带千分位逗号 / 日期三种写法 / 有合并行）',
+    '我希望的交付：干净表 + 待复核清单 + 处理报告',
+    '（附一份脱敏样本或表头截图更好；先给可行性判断和报价，确认后再开工）'
+  ].join('\n');
+  $('copyInquiry').onclick = function () {
+    var ta = $('inquiry');
+    ta.select();
+    ta.setSelectionRange(0, 99999);
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    if (!ok && navigator.clipboard) {
+      navigator.clipboard.writeText(ta.value).then(function () {
+        $('copyInquiry').textContent = '已复制 ✓';
+        setTimeout(function () { $('copyInquiry').textContent = '复制询价单'; }, 2000);
+      });
+      return;
+    }
+    $('copyInquiry').textContent = ok ? '已复制 ✓' : '复制失败，请手动全选复制';
+    setTimeout(function () { $('copyInquiry').textContent = '复制询价单'; }, 2000);
+  };
+
+  // ---- 内置自检 ----
+  $('selftest').onclick = function () {
+    var out = $('stOut');
+    if (!BC || !BC.selfTest) { out.innerHTML = '<p class="err">自检模块没加载到（browser-cleaner.js 缺失）。</p>'; return; }
+    var checks = BC.selfTest();
+    var pass = 0;
+    var html = '<table>';
+    checks.forEach(function (c) {
+      if (c.ok) pass++;
+      html += '<tr><td class="' + (c.ok ? 'ok' : 'err') + '">' + (c.ok ? 'PASS' : 'FAIL') + '</td><td>' + esc(c.name) + '</td></tr>';
+    });
+    html += '</table><p class="' + (pass === checks.length ? 'ok' : 'err') + '">' + pass + '/' + checks.length + ' 项通过</p>';
+    out.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
