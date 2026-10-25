@@ -59,6 +59,7 @@ python tests/reproduce_check.py     # 重跑 4 套样品，逐个比对已提交
 
 - 落地页：<https://pp-prog.github.io/data-cleanup-services/toolkit.html>
 - 下载（推荐·同源稳定）：<https://pp-prog.github.io/data-cleanup-services/table-cleaner-toolkit-v1.0.0.zip>
+- 备用下载（源码包直下·非 CDN）：<https://codeload.github.com/pp-prog/data-cleanup-services/zip/refs/heads/master>
 - 备用下载（CDN 镜像）：<https://gcore.jsdelivr.net/gh/pp-prog/data-cleanup-services@master/table-cleaner-toolkit-v1.0.0.zip>
 - 兜底（GitHub Release，国内可能慢）：<https://github.com/pp-prog/data-cleanup-services/releases/download/v1.0.0-toolkit/table-cleaner-toolkit-v1.0.0.zip>
 - 零依赖单文件源码：<https://pp-prog.github.io/data-cleanup-services/clean_my_table.py>
