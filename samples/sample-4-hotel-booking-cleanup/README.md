@@ -1,4 +1,4 @@
-﻿# Sample Project — Messy Hotel Booking Sheets → One Clean Bookings Table (Python)
+# Sample Project — Messy Hotel Booking Sheets → One Clean Bookings Table (Python)
 
 > **Sample project — demo data, no client involved.**
 > This is a self-built demonstration built for my Upwork portfolio. The workbook, the
@@ -10,6 +10,12 @@
 differently, in a mix of Turkish and English, with dates written in six different
 formats and prices typed in six different ways — into **one clean table of 833 verified
 bookings**, plus **571 rows flagged for human review** instead of silently guessed.
+
+---
+
+## Demo (real recorded run)
+
+![sample-4-hotel-booking-cleanup demo](../../demos/demo-4-hotel-booking-cleanup.gif)
 
 ---
 
@@ -168,6 +174,6 @@ sample-4-hotel-booking-cleanup/
 
 ---
 
-*Built as a portfolio sample. Recorded demo: `chenchen/portfolio/demos/demo-4-hotel-booking-cleanup.mp4` (31 s).*
+*Built as a portfolio sample. Recorded demo: see the GIF at the top of this page (and `demos/demo-4-hotel-booking-cleanup.gif` in the repo root).*
 
 

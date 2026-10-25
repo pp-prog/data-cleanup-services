@@ -14,7 +14,20 @@
 | [`samples/sample-3-ai-agent-api-workflow`](samples/sample-3-ai-agent-api-workflow) | 批量文档 → 抽取 → JSON + 报告（无 Key 自动 MOCK） | ¥49 / $20 |
 | [`samples/sample-4-hotel-booking-cleanup`](samples/sample-4-hotel-booking-cleanup) | 48 表 / 6 表头 / 6 日期格式 → 833 清洗 + 571 复核 + 17 项自检 | ¥99 / $30 |
 
-演示动图：[`demos/`](demos)
+## 看一眼效果（真实运行录屏，非截图拼贴）
+
+<table>
+<tr>
+<td align="center" width="50%"><img src="demos/demo-1-python-automation.gif" width="420"><br><b>1 · 表格合并清洗</b><br>4 家供应商 4 种表头 → 干净主表</td>
+<td align="center" width="50%"><img src="demos/demo-2-web-scraping-cleanup.gif" width="420"><br><b>2 · 网页抓取与清洗</b><br>抓取 → 按 SKU 去重 → 规范化 CSV</td>
+</tr>
+<tr>
+<td align="center"><img src="demos/demo-3-ai-agent-api-workflow.gif" width="420"><br><b>3 · 文档抽取工作流</b><br>批量文档 → 抽取 → JSON + 报告</td>
+<td align="center"><img src="demos/demo-4-hotel-booking-cleanup.gif" width="420"><br><b>4 · 历史表格修复</b><br>48 表 → 833 清洗 + 571 复核</td>
+</tr>
+</table>
+
+全部录屏可用仓库里的脚本原样复现（命令见「本地运行」），原始文件在 [`demos/`](demos)。
 
 ## 在线表格清洗器（打开网页就能用 · 零下载零安装）
 

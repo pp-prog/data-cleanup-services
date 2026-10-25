@@ -11,6 +11,12 @@ table plus a run summary — in about a fifth of a second.
 
 ---
 
+## Demo (real recorded run)
+
+![sample-1-python-automation demo](../../demos/demo-1-python-automation.gif)
+
+---
+
 ## 1. The problem
 
 A typical small-business spreadsheet mess looks like this, and it arrives from four

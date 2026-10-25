@@ -17,6 +17,12 @@ coercion, warnings per record, and a schema-checked output.
 
 ---
 
+## Demo (real recorded run)
+
+![sample-3-ai-agent-api-workflow demo](../../demos/demo-3-ai-agent-api-workflow.gif)
+
+---
+
 ## 1. The problem
 
 A sales or procurement inbox is full of unstructured enquiries. Every one of them needs

@@ -11,6 +11,12 @@ SKUs — plus a machine-readable field-mapping report.
 
 ---
 
+## Demo (real recorded run)
+
+![sample-2-web-scraping-cleanup demo](../../demos/demo-2-web-scraping-cleanup.gif)
+
+---
+
 ## 1. The problem
 
 Public listing pages are almost never structured for reuse. A single "office supplies"
