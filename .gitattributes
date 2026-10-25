@@ -1,0 +1,14 @@
+# 统一行尾：让 git diff 只反映真实内容变更
+#
+# 为什么需要它（2026-10-25）：
+#   Windows 上 PowerShell / Python 写文件会用 CRLF，git 在没有 .gitattributes 时
+#   按 core.autocrlf 逐次翻转 —— 结果是「内容一模一样，diff 却整文件全红」。
+#   这不只是难看：它会让 tests/reproduce_check.py 的 sha256 比对因行尾翻转而误报，
+#   也就是让「输出可复现」这条可信度承诺被噪声打穿。
+#   binary（.xlsx / .zip / .png / .gif）由 text=auto 自动识别，不会被改动。
+* text=auto eol=lf
+
+# Windows 批处理与 PowerShell 脚本保持 CRLF（Windows 原生偏好）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf

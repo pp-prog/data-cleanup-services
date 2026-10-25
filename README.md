@@ -29,6 +29,20 @@
 
 全部录屏可用仓库里的脚本原样复现（命令见「本地运行」），原始文件在 [`demos/`](demos)。
 
+## 自己验一遍（30 秒）
+
+README 说"所有输出都是真实跑出来的"——这句话是可以被验证的，不只是承诺。
+
+```bash
+git clone https://github.com/pp-prog/data-cleanup-services
+cd data-cleanup-services
+python tests/reproduce_check.py     # 重跑 4 套样品，逐个比对已提交的输出
+```
+
+期望输出：`结论: PASS —— 8 个输出文件全部可复现（已剔除运行时间戳类字段）`
+退出码 `0` = 可复现；`1` = 有输出对不上 —— 此时 README 这句话就是假的。
+（比对时忽略 `run_at_utc` / `elapsed_seconds` 这类每次必然不同的运行元数据；xlsx 比对的是单元格内容而非字节，因为 zip 元数据每次都不同。）
+
 ## 在线表格清洗器（打开网页就能用 · 零下载零安装）
 
 <https://pp-prog.github.io/data-cleanup-services/clean.html>
