@@ -59,6 +59,11 @@
 <div class="wrap">
 
 <h2>四套样品（每套都含源码 + 输入 + 输出 + 自检）</h2>
+<p style="color:var(--dim);font-size:14px;margin:-6px 0 18px">
+  不想只看我截图？<a href="https://github.com/pp-prog/data-cleanup-services"><u>克隆仓库</u></a>跑
+  <code>python tests/reproduce_check.py</code>（30 秒）—— 它会重跑这四套并逐个比对已提交的输出，
+  全对才输出 <code>PASS</code>。我说的"输出都是真跑出来的"，你可以自己验。
+</p>
 <div class="grid">
 
   <div class="card">
@@ -70,7 +75,7 @@
       <li>脚本自带校验，坏行进 review 不被静默丢弃</li>
     </ul>
     <img class="demo" src="demos/demo-1-python-automation.gif" alt="多表合并清洗演示">
-    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-1-python-automation">查看源码与输出 →</a></p>
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/master/samples/sample-1-python-automation">查看源码与输出 →</a></p>
   </div>
 
   <div class="card">
@@ -82,7 +87,7 @@
       <li>离线 mock 模式，任何机器都能复现</li>
     </ul>
     <img class="demo" src="demos/demo-2-web-scraping-cleanup.gif" alt="抓取清洗演示">
-    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-2-web-scraping-cleanup">查看源码与输出 →</a></p>
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/master/samples/sample-2-web-scraping-cleanup">查看源码与输出 →</a></p>
   </div>
 
   <div class="card">
@@ -94,7 +99,7 @@
       <li>密钥只从环境变量读取，不写进代码</li>
     </ul>
     <img class="demo" src="demos/demo-3-ai-agent-api-workflow.gif" alt="抽取工作流演示">
-    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-3-ai-agent-api-workflow">查看源码与输出 →</a></p>
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/master/samples/sample-3-ai-agent-api-workflow">查看源码与输出 →</a></p>
   </div>
 
   <div class="card">
@@ -106,7 +111,7 @@
       <li>脚本 17 项断言自检（价格 = 晚数 × 40、日期先后、汇总对账）</li>
     </ul>
     <img class="demo" src="demos/demo-4-hotel-booking-cleanup.gif" alt="历史表格修复演示">
-    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/main/samples/sample-4-hotel-booking-cleanup">查看源码与输出 →</a></p>
+    <p><a href="https://github.com/pp-prog/data-cleanup-services/tree/master/samples/sample-4-hotel-booking-cleanup">查看源码与输出 →</a></p>
   </div>
 
 </div>
