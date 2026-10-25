@@ -16,12 +16,23 @@
 
 演示动图：[`demos/`](demos)
 
+## 在线表格清洗器（打开网页就能用 · 零下载零安装）
+
+<https://pp-prog.github.io/data-cleanup-services/clean.html>
+
+- 文件**不离开你的电脑**：不上传、不注册、不下载，浏览器本地跑完。
+- 干同样的活：中文表头自动识别、欧式数字 `1.234,56 → 1234.56`、合并行识别、脏行进「待复核」而不是悄悄丢掉。
+- 想先试手感就用这个；要批量处理或离线跑，用下面的命令行版。
+
 ## 脏表格一键清洗工具 v1.0（自助版，MIT）
 
 一条命令把乱表洗成干净表 + 复核表 + 报告。纯标准库，内置 16 项自检。
 
 - 落地页：<https://pp-prog.github.io/data-cleanup-services/toolkit.html>
-- 下载：<https://github.com/pp-prog/data-cleanup-services/releases/download/v1.0.0-toolkit/table-cleaner-toolkit-v1.0.0.zip>
+- 下载（推荐·同源稳定）：<https://pp-prog.github.io/data-cleanup-services/table-cleaner-toolkit-v1.0.0.zip>
+- 备用下载（CDN 镜像）：<https://testingcf.jsdelivr.net/gh/pp-prog/data-cleanup-services@master/table-cleaner-toolkit-v1.0.0.zip>
+- 兜底（GitHub Release，国内可能慢）：<https://github.com/pp-prog/data-cleanup-services/releases/download/v1.0.0-toolkit/table-cleaner-toolkit-v1.0.0.zip>
+- 零依赖单文件源码：<https://pp-prog.github.io/data-cleanup-services/clean_my_table.py>
 - 自检：`python clean_my_table.py --self-test`
 
 ## 两条规矩
@@ -49,6 +60,8 @@ Python 3.10+。除样品 3 的 live 模式需要 `LLM_API_KEY` 环境变量外�
 
 ## 联系方式
 
-需求 / 报价 / 合作：微信或闲鱼私聊（见 [作品集主页](https://pp-prog.github.io/data-cleanup-services/)）。
+- **询价 / 需求（推荐，直接在 GitHub 提 issue，标题模板已预填）**：
+  <https://github.com/pp-prog/data-cleanup-services/issues/new?title=%E8%AF%A2%E4%BB%B7%EF%BC%9A%E4%BD%A0%E7%9A%84%E9%9C%80%E6%B1%82%20%2B%20%E7%9B%AE%E6%A0%87%E5%AD%97%E6%AE%B5>
+- 微信或闲鱼私聊：见 [作品集主页](https://pp-prog.github.io/data-cleanup-services/)
 
 > 本仓库内容全部为演示用合成数据与自建样例，不含任何真实客户数据、凭据或身份信息。
