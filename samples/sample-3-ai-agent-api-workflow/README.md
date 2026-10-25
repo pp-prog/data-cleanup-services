@@ -19,7 +19,7 @@ coercion, warnings per record, and a schema-checked output.
 
 ## Demo (real recorded run)
 
-![sample-3-ai-agent-api-workflow demo](../../demos/demo-3-ai-agent-api-workflow.gif)
+![sample-3-ai-agent-api-workflow demo](https://pp-prog.github.io/data-cleanup-services/demos/demo-3-ai-agent-api-workflow.gif)
 
 ---
 

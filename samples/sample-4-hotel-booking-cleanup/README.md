@@ -15,7 +15,7 @@ bookings**, plus **571 rows flagged for human review** instead of silently guess
 
 ## Demo (real recorded run)
 
-![sample-4-hotel-booking-cleanup demo](../../demos/demo-4-hotel-booking-cleanup.gif)
+![sample-4-hotel-booking-cleanup demo](https://pp-prog.github.io/data-cleanup-services/demos/demo-4-hotel-booking-cleanup.gif)
 
 ---
 

@@ -13,7 +13,7 @@ SKUs — plus a machine-readable field-mapping report.
 
 ## Demo (real recorded run)
 
-![sample-2-web-scraping-cleanup demo](../../demos/demo-2-web-scraping-cleanup.gif)
+![sample-2-web-scraping-cleanup demo](https://pp-prog.github.io/data-cleanup-services/demos/demo-2-web-scraping-cleanup.gif)
 
 ---
 

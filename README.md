@@ -18,12 +18,12 @@
 
 <table>
 <tr>
-<td align="center" width="50%"><img src="demos/demo-1-python-automation.gif" width="420"><br><b>1 · 表格合并清洗</b><br>4 家供应商 4 种表头 → 干净主表</td>
-<td align="center" width="50%"><img src="demos/demo-2-web-scraping-cleanup.gif" width="420"><br><b>2 · 网页抓取与清洗</b><br>抓取 → 按 SKU 去重 → 规范化 CSV</td>
+<td align="center" width="50%"><img src="https://pp-prog.github.io/data-cleanup-services/demos/demo-1-python-automation.gif" width="420"><br><b>1 · 表格合并清洗</b><br>4 家供应商 4 种表头 → 干净主表</td>
+<td align="center" width="50%"><img src="https://pp-prog.github.io/data-cleanup-services/demos/demo-2-web-scraping-cleanup.gif" width="420"><br><b>2 · 网页抓取与清洗</b><br>抓取 → 按 SKU 去重 → 规范化 CSV</td>
 </tr>
 <tr>
-<td align="center"><img src="demos/demo-3-ai-agent-api-workflow.gif" width="420"><br><b>3 · 文档抽取工作流</b><br>批量文档 → 抽取 → JSON + 报告</td>
-<td align="center"><img src="demos/demo-4-hotel-booking-cleanup.gif" width="420"><br><b>4 · 历史表格修复</b><br>48 表 → 833 清洗 + 571 复核</td>
+<td align="center"><img src="https://pp-prog.github.io/data-cleanup-services/demos/demo-3-ai-agent-api-workflow.gif" width="420"><br><b>3 · 文档抽取工作流</b><br>批量文档 → 抽取 → JSON + 报告</td>
+<td align="center"><img src="https://pp-prog.github.io/data-cleanup-services/demos/demo-4-hotel-booking-cleanup.gif" width="420"><br><b>4 · 历史表格修复</b><br>48 表 → 833 清洗 + 571 复核</td>
 </tr>
 </table>
 
@@ -42,6 +42,8 @@ python tests/reproduce_check.py     # 重跑 4 套样品，逐个比对已提交
 期望输出：`结论: PASS —— 8 个输出文件全部可复现（已剔除运行时间戳类字段）`
 退出码 `0` = 可复现；`1` = 有输出对不上 —— 此时 README 这句话就是假的。
 （比对时忽略 `run_at_utc` / `elapsed_seconds` 这类每次必然不同的运行元数据；xlsx 比对的是单元格内容而非字节，因为 zip 元数据每次都不同。）
+
+> 重跑后 `git status` 会显示 3 个输出文件被修改（两个 `.xlsx` 的 zip 时间戳 + `run_summary.csv` 的 `run_at_utc`/`elapsed_seconds`）。这是运行元数据，不是内容变化 —— 上面这个闸门就是用来把两者区分开的。
 
 ## 在线表格清洗器（打开网页就能用 · 零下载零安装）
 
