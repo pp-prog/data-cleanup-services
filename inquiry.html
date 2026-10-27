@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>询价入口 · 三步说清你的表 | 数据清洗服务</title>
+<meta name="description" content="提交询价：复制询价单模板填好发我，或走仓库 Issues 提交。10 分钟内回档位与价格。数据质量体检 ¥99 起，24 小时交付 1 页报告。">
+<link rel="canonical" href="https://pp-prog.github.io/data-cleanup-services/inquiry.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="数据清洗样品与工具">
+<meta property="og:title" content="询价入口 · 三步说清你的表">
+<meta property="og:description" content="复制询价单模板填好发我，10 分钟内回档位与价格。体检 ¥99 起，24 小时交付。">
+<meta property="og:url" content="https://pp-prog.github.io/data-cleanup-services/inquiry.html">
+<meta property="og:image" content="https://pp-prog.github.io/data-cleanup-services/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="询价入口 · 三步说清你的表">
+<meta name="twitter:description" content="复制询价单模板填好发我，10 分钟内回档位与价格。">
+<meta name="twitter:image" content="https://pp-prog.github.io/data-cleanup-services/og-card.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "询价入口 · 数据清洗服务",
+  "url": "https://pp-prog.github.io/data-cleanup-services/inquiry.html",
+  "description": "提交数据清洗询价：复制模板或走仓库 Issues，10 分钟内回档位与价格。"
+}
+</script>
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#252a34;--fg:#e6e8ee;--dim:#9aa3b2;--acc:#4ade80;--acc2:#60a5fa;--warn:#fbbf24;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.7}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  header{padding:48px 0 24px;border-bottom:1px solid var(--line)}
+  h1{font-size:28px;margin:0 0 8px}
+  .sub{color:var(--dim)}
+  h2{font-size:20px;margin:38px 0 8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
+  .btn{display:inline-block;background:var(--acc);color:#06240f;font-weight:700;padding:12px 22px;border-radius:10px;text-decoration:none;margin:6px 8px 6px 0;border:0;cursor:pointer;font-size:15px}
+  .btn2{background:#1d2530;color:var(--fg);border:1px solid var(--line)}
+  .btn3{background:#1d2530;color:var(--fg);border:1px solid var(--line)}
+  textarea{width:100%;min-height:150px;background:#11141a;color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:12px;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+  ol,ul{padding-left:20px}
+  .price{color:var(--acc);font-weight:700}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--dim);margin:0 6px 6px 0}
+  .warn{color:var(--warn)}
+  .qr{width:150px;height:150px;border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--dim);font-size:12px;text-align:center;margin:10px 0}
+  footer{border-top:1px solid var(--line);padding:24px 0;color:var(--dim);font-size:13px;margin-top:34px}
+  a{color:var(--acc2)}
+  .small{font-size:13px;color:var(--dim)}
+  code{background:#11141a;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>询价入口 · 三步说清你的表</h1>
+  <div class="sub">填完下面两项我就能开工：<strong>①文件本体 ②这张表拿去干什么</strong>。其余缺的我按假设标注，不阻塞交付。</div>
+  <div style="margin-top:14px">
+    <span class="pill">10 分钟内回档位与价格</span><span class="pill">体检 <span class="price">¥99</span> 起</span><span class="pill">24 小时交付</span><span class="pill">不编数据 · 不静默丢行</span>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<h2>方式一：复制询价单（推荐，最不容易丢信息）</h2>
+<div class="card">
+  <p>点下面的按钮复制模板，填好发我即可（微信 / 邮件 / 站内都行）。</p>
+  <textarea id="inquiry" readonly></textarea>
+  <div style="margin:10px 0">
+    <button class="btn btn2" id="copyInquiry">复制询价单</button>
+    <span class="small" id="copyMsg"></span>
+  </div>
+  <p class="small">最低要求只要 <strong>①文件 + ②用途</strong>；主键 / 保留字段 / 期望时间缺了我在报告里写明假设。</p>
+</div>
+
+<h2>方式二：走仓库 Issues 提交</h2>
+<div class="card">
+  <p><a class="btn btn3" href="https://github.com/pp-prog/data-cleanup-services/issues/new?title=%E8%AF%A2%E4%BB%B7%EF%BC%9A%E6%95%B0%E6%8D%AE%E8%B4%A8%E9%87%8F%E4%BD%93%E6%A3%80%20%2B%20%E7%9B%AE%E6%A0%87%E5%AD%97%E6%AE%B5">打开询价单提交页</a></p>
+  <p class="small">标题已预填，正文按提示填即可。这条走 GitHub，海外网络更顺；<span class="warn">国内网络常常打不开 github.com，属于正常现象</span> —— 打不开就用方式一，微信/邮件直接发我一样收得到。</p>
+  <p class="small">也可以直接看 <a href="https://github.com/pp-prog/data-cleanup-services/issues">询价单列表</a>，确认我方能收到你的提交。</p>
+</div>
+
+<h2>方式和价格</h2>
+<div class="card">
+  <table style="width:100%;border-collapse:collapse;font-size:14px">
+    <tr><th style="border-bottom:1px solid var(--line);padding:9px 10px;text-align:left">档位</th><th style="border-bottom:1px solid var(--line);padding:9px 10px;text-align:left">交付物</th><th style="border-bottom:1px solid var(--line);padding:9px 10px;text-align:left">价格</th><th style="border-bottom:1px solid var(--line);padding:9px 10px;text-align:left">时效</th></tr>
+    <tr><td style="padding:9px 10px">S1 体检版</td><td style="padding:9px 10px">1 页《数据质量体检报告》（重复值 / 缺失率 / 字段类型推断 / 风险 Top10）</td><td style="padding:9px 10px"><span class="price">¥99</span></td><td style="padding:9px 10px">24 小时</td></tr>
+    <tr><td style="padding:9px 10px">S2 清洗版</td><td style="padding:9px 10px">体检 + 清洗后数据 + 逐条变更日志</td><td style="padding:9px 10px">¥399 起</td><td style="padding:9px 10px">按量</td></tr>
+    <tr><td style="padding:9px 10px">S3 流水线版</td><td style="padding:9px 10px">可重复运行的脚本 + 规则说明 + 回归自检</td><td style="padding:9px 10px">¥1,299 起</td><td style="padding:9px 10px">按量</td></tr>
+  </table>
+  <p class="small">完整口径见 <a href="t1-check.html">数据质量体检 ¥99 服务页</a>（本页只做提交入口）。</p>
+</div>
+
+<h2>付款</h2>
+<div class="card">
+  <p>微信 / 支付宝（人民币）或 PayPal（美元）。S1 为 <strong>¥99 全款起步</strong>，收到款后开工，24 小时内交报告。</p>
+  <div class="qr">收款码<br><span class="qr-pending" data-slot="RECEIPT_QR">待放置</span></div>
+  <p class="warn">（收款码位待放图——我不放假的。二维码未就位前，先走询价单流程。）</p>
+</div>
+
+<h2>先自己跑一遍也行</h2>
+<div class="card">
+  <p>如果你的表只是"合并 + 归一 + 标出可疑行"，可以先自己跑（免费、文件不上传）：</p>
+  <p>
+    <a class="btn btn2" href="https://pp-prog.github.io/data-cleanup-services/clean.html">在线表格清洗器（浏览器本地）</a>
+    <a class="btn btn2" href="https://pp-prog.github.io/data-cleanup-services/toolkit.html">工具包 v1.0（可下载）</a>
+  </p>
+</div>
+
+</div>
+
+<footer><div class="wrap">
+  <p><a href="https://pp-prog.github.io/data-cleanup-services/">← 作品集首页</a> ·
+     <a href="https://pp-prog.github.io/data-cleanup-services/t1-check.html">体检 ¥99 服务页</a> ·
+     <a href="https://pp-prog.github.io/data-cleanup-services/clean.html">在线清洗器</a> ·
+     <a href="https://pp-prog.github.io/data-cleanup-services/toolkit.html">工具包 v1.0</a></p>
+  <p>星辰 · 数据清洗服务 · 本页只做询价提交入口；价格与时效以服务页为准。</p>
+</div></footer>
+
+<script>
+(function(){
+  var tpl = [
+    '【询价单 · 数据清洗】',
+    '',
+    '1) 文件：<文件名或链接>（可先发 3 行样本，我先做免费预检）',
+    '2) 这张表要拿去干什么：<一句话，例如"导入 CRM 做客户去重">',
+    '3) 主键（哪一列算同一行）：<不知道就写"不确定">',
+    '4) 必须原样保留的字段：<ID / 金额 / 日期等；没有就写"无">',
+    '5) 期望交付时间：<默认 24 小时，可改>',
+    '',
+    '（最低只需 ①文件 + ②用途；S1 体检版 = 1 页报告，¥99，24 小时交付）'
+  ].join('\n');
+  var ta = document.getElementById('inquiry');
+  if (ta) { ta.value = tpl; }
+  var btn = document.getElementById('copyInquiry');
+  var msg = document.getElementById('copyMsg');
+  if (btn) {
+    btn.addEventListener('click', function(){
+      var done = function(){ msg.textContent = '已复制，填好发我即可。'; };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(tpl).then(done, function(){ ta.select(); document.execCommand('copy'); done(); });
+      } else {
+        ta.select(); document.execCommand('copy'); done();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
